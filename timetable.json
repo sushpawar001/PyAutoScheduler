@@ -1,0 +1,180 @@
+{
+    "FY IT": {
+        "Mon": [
+            "C Prog\nPractical\n(Ballal)",
+            "CLDS\nTheory\n(Smita)",
+            "DLA\nTheory\n(Rajnish)",
+            "TCS\nTheory\n(Panda)",
+            "DLA\nTheory\n(Rajnish)"
+        ],
+        "Tue": [
+            "DLA\nPractical\n(Rajnish)",
+            "TCS\nTheory\n(Panda)",
+            "FDBMS\nTheory\n(Smita)",
+            "C Prog\nTheory\n(Ballal)",
+            "CLDS\nTheory\n(Smita)"
+        ],
+        "Wed": [
+            "FDBMS\nPractical\n(Smita)",
+            "C Prog\nTheory\n(Ballal)",
+            "TCS\nTheory\n(Panda)",
+            "DLA\nTheory\n(Rajnish)",
+            "TCS\nTheory\n(Panda)"
+        ],
+        "Thurs": [
+            "TCS\nPractical\n(Panda)",
+            "DLA\nTheory\n(Rajnish)",
+            "C Prog\nTheory\n(Ballal)",
+            "CLDS\nTheory\n(Smita)",
+            "C Prog\nTheory\n(Ballal)"
+        ],
+        "Fri": [
+            "C Prog\nPractical\n(Ballal)",
+            "CLDS\nTheory\n(Smita)",
+            "DLA\nTheory\n(Rajnish)",
+            "TCS\nTheory\n(Panda)",
+            "DLA\nTheory\n(Rajnish)"
+        ],
+        "Sat": [
+            "DLA\nPractical\n(Rajnish)",
+            "TCS\nTheory\n(Panda)",
+            "FDBMS\nTheory\n(Smita)",
+            "C Prog\nTheory\n(Ballal)",
+            "FDBMS\nTheory\n(Smita)"
+        ]
+    },
+    "SY IT": {
+        "Mon": [
+            "OS\nPractical\n(Rajnish)",
+            "AM\nTheory\n(Panda)",
+            "DSA\nTheory\n(Smita)",
+            "Python\nTheory\n(Ballal)",
+            "DSA\nTheory\n(Smita)"
+        ],
+        "Tue": [
+            "DSA\nPractical\n(Smita)",
+            "Python\nTheory\n(Ballal)",
+            "AM\nTheory\n(Panda)",
+            "CN\nTheory\n(Rajnish)",
+            "AM\nTheory\n(Panda)"
+        ],
+        "Wed": [
+            "Python\nPractical\n(Ballal)",
+            "OS\nTheory\n(Rajnish)",
+            "OS\nTheory\n(Rajnish)",
+            "DSA\nTheory\n(Smita)",
+            "Python\nTheory\n(Ballal)"
+        ],
+        "Thurs": [
+            "CN\nPractical\n(Rajnish)",
+            "DSA\nTheory\n(Smita)",
+            "DSA\nTheory\n(Smita)",
+            "AM\nTheory\n(Panda)",
+            "OS\nTheory\n(Rajnish)"
+        ],
+        "Fri": [
+            "DSA\nPractical\n(Smita)",
+            "AM\nTheory\n(Panda)",
+            "AM\nTheory\n(Panda)",
+            "Python\nTheory\n(Ballal)",
+            "DSA\nTheory\n(Smita)"
+        ],
+        "Sat": [
+            "Python\nPractical\n(Ballal)",
+            "Python\nTheory\n(Ballal)",
+            "Python\nTheory\n(Ballal)",
+            "CN\nTheory\n(Rajnish)",
+            "AM\nTheory\n(Panda)"
+        ]
+    },
+    "TY BCOM": {
+        "Mon": [
+            "Direct Tax\nTheory\n(Swapnil)",
+            "Cost Accounting\nTheory\n(Sarika)",
+            "FA\nTheory\n(Manisha)",
+            "ECO\nTheory\n(Geeta)",
+            "Export\nTheory\n(Pranali)",
+            "IT\nPractical\n(Smita)"
+        ],
+        "Tue": [
+            "Cost Accounting\nTheory\n(Sarika)",
+            "FA\nTheory\n(Manisha)",
+            "ECO\nTheory\n(Geeta)",
+            "Export\nTheory\n(Pranali)",
+            "Direct Tax\nTheory\n(Swapnil)",
+            "IT\nPractical\n(Smita)"
+        ],
+        "Wed": [
+            "FA\nTheory\n(Manisha)",
+            "ECO\nTheory\n(Geeta)",
+            "Export\nTheory\n(Pranali)",
+            "Direct Tax\nTheory\n(Swapnil)",
+            "Cost Accounting\nTheory\n(Sarika)"
+        ],
+        "Thurs": [
+            "ECO\nTheory\n(Geeta)",
+            "Export\nTheory\n(Pranali)",
+            "Direct Tax\nTheory\n(Swapnil)",
+            "Cost Accounting\nTheory\n(Sarika)",
+            "FA\nTheory\n(Manisha)"
+        ],
+        "Fri": [
+            "Export\nTheory\n(Pranali)",
+            "Direct Tax\nTheory\n(Swapnil)",
+            "Cost Accounting\nTheory\n(Sarika)",
+            "FA\nTheory\n(Manisha)",
+            "ECO\nTheory\n(Geeta)"
+        ],
+        "Sat": [
+            "Direct Tax\nTheory\n(Swapnil)",
+            "Cost Accounting\nTheory\n(Sarika)",
+            "FA\nTheory\n(Manisha)",
+            "ECO\nTheory\n(Geeta)",
+            "Export\nTheory\n(Pranali)"
+        ]
+    },
+    "TY IT": {
+        "Mon": [
+            "SPM\nPractical\n(Smita)",
+            "AI\nTheory\n(Ballal)",
+            "AI\nTheory\n(Ballal)",
+            "NGT\nTheory\n(Rajnish)",
+            "AI\nTheory\n(Ballal)"
+        ],
+        "Tue": [
+            "AI\nPractical\n(Ballal)",
+            "NGT\nTheory\n(Rajnish)",
+            "NGT\nTheory\n(Rajnish)",
+            "SPM\nTheory\n(Smita)",
+            "NGT\nTheory\n(Rajnish)"
+        ],
+        "Wed": [
+            "NGT\nPractical\n(Rajnish)",
+            "SPM\nTheory\n(Smita)",
+            "SPM\nTheory\n(Smita)",
+            "AI\nTheory\n(Ballal)",
+            "SPM\nTheory\n(Smita)"
+        ],
+        "Thurs": [
+            "SPM\nPractical\n(Smita)",
+            "AI\nTheory\n(Ballal)",
+            "NGT\nTheory\n(Rajnish)",
+            "NGT\nTheory\n(Rajnish)",
+            "SPM\nTheory\n(Smita)"
+        ],
+        "Fri": [
+            "NGT\nPractical\n(Rajnish)",
+            "NGT\nTheory\n(Rajnish)",
+            "SPM\nTheory\n(Smita)",
+            "SPM\nTheory\n(Smita)",
+            "AI\nTheory\n(Ballal)"
+        ],
+        "Sat": [
+            "SPM\nPractical\n(Smita)",
+            "SPM\nTheory\n(Smita)",
+            "NGT\nTheory\n(Rajnish)",
+            "SPM\nTheory\n(Smita)",
+            "NGT\nTheory\n(Rajnish)"
+        ]
+    }
+}
