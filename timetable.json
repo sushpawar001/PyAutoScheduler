@@ -102,35 +102,39 @@
             "ECO\nTheory\n(Geeta)",
             "Export\nTheory\n(Pranali)",
             "Direct Tax\nTheory\n(Swapnil)",
-            "IT\nPractical\n(Smita)"
+            "Direct Tax\nTheory\n(Swapnil)"
         ],
         "Wed": [
             "FA\nTheory\n(Manisha)",
             "ECO\nTheory\n(Geeta)",
             "Export\nTheory\n(Pranali)",
             "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)"
+            "Cost Accounting\nTheory\n(Sarika)",
+            "IT\nPractical\n(Smita)"
         ],
         "Thurs": [
             "ECO\nTheory\n(Geeta)",
             "Export\nTheory\n(Pranali)",
             "Direct Tax\nTheory\n(Swapnil)",
             "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)"
+            "FA\nTheory\n(Manisha)",
+            "Direct Tax\nTheory\n(Swapnil)"
         ],
         "Fri": [
             "Export\nTheory\n(Pranali)",
             "Direct Tax\nTheory\n(Swapnil)",
             "Cost Accounting\nTheory\n(Sarika)",
             "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)"
+            "ECO\nTheory\n(Geeta)",
+            "Direct Tax\nTheory\n(Swapnil)"
         ],
         "Sat": [
             "Direct Tax\nTheory\n(Swapnil)",
             "Cost Accounting\nTheory\n(Sarika)",
             "FA\nTheory\n(Manisha)",
             "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)"
+            "Export\nTheory\n(Pranali)",
+            "Direct Tax\nTheory\n(Swapnil)"
         ]
     },
     "TY IT": {

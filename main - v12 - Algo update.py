@@ -1276,6 +1276,7 @@ def generate_daily_schedule(year: str, lec_num: int, professors_queue: list, pra
     day_num = 0
     count = 0
     attepts = 0
+    pract_attepts = 0
 
     def queue_next():
         professors_queue.append(professors_queue.pop(0))
@@ -1284,14 +1285,20 @@ def generate_daily_schedule(year: str, lec_num: int, professors_queue: list, pra
         count += 1
         available_prof = check_professor_available(lec_num, days[day_num])
         today_lecs = get_professors_from_schedule(year, days[day_num])
-        scheduled = (
+        scheduled: bool = (
             professors_queue[0] not in today_lecs
             or lec_num > queue_len
             or attepts >= queue_len
         )
         available = professors_queue[0] in available_prof
 
-        subtype = "Practical" if lec_num in practical_slots else "Theory"
+        # logic to schedule the lectures if practicals not available in practical slot
+        if lec_num in practical_slots: 
+            subtype = "Theory" if pract_attepts >= queue_len else "Practical"
+        else:
+            subtype = "Theory"
+
+        # subtype = "Practical" if lec_num in practical_slots else "Theory"
 
         if available and scheduled:
             subject = get_subject(
@@ -1305,9 +1312,11 @@ def generate_daily_schedule(year: str, lec_num: int, professors_queue: list, pra
                         f"{subject}\n{subtype}\n({professors_queue[0]})"
                     )
                     day_num += 1
-        
+                    pract_attepts = 0
+
         queue_next()
         attepts += 1
+        pract_attepts += 1
 
 
 def get_subject_workload(
@@ -1772,7 +1781,7 @@ if __name__ == "__main__":
     window.wm_attributes("-topmost", True)  # stays on top of other windows
     window.resizable(False, False)  # Prevent resizing in both dimensions
 
-    window.minsize(250, 200)
+    window.minsize(250, 250)
     window.columnconfigure(0, weight=1)
     window.rowconfigure(0, weight=1)
 
@@ -1789,5 +1798,5 @@ if __name__ == "__main__":
     create_menu()
     create_all_pages()
     create_all_tt_pages()
-    create_page(delete_subject_frame)
+    create_page(create_add_department_frame)
     window.mainloop()
