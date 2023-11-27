@@ -1,0 +1,34 @@
+{
+    "BScIT": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": [
+            0
+        ]
+    },
+    "BCOM": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": []
+    },
+    "BAF": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": []
+    },
+    "BMM": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": []
+    },
+    "BMS": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": []
+    }
+}

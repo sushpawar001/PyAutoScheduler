@@ -1,0 +1,682 @@
+{
+    "Bipin Jha": {
+        "FY BAF": [
+            {
+                "Subject": "Financial Accounting -II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Innovative Financial Service",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BAF": [
+            {
+                "Subject": "Financial Accounting IV",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Information Technology in Accountancy - II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Foundation Course IV",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BAF": [
+            {
+                "Subject": "Financial Accounting VI",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Project Work II",
+                "Type": "Theory"
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Subject": "Costing and Accountaning",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Costing and Accountaning",
+                "Type": "Theory"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Subject": "Accounting for Managerial Desicions",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ]
+    },
+    "Rajkumar Pillai": {
+        "FY BAF": [
+            {
+                "Subject": "Business Communication II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BAF": [
+            {
+                "Subject": "Research Methodoloy in Accounting and Finance",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BMM": [
+            {
+                "Subject": "Media, Law and Ethics",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Media Marketing Research",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMM": [
+            {
+                "Subject": "FM",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "DRM",
+                "Type": "Theory"
+            }
+        ],
+        "FY BMS": [
+            {
+                "Subject": "Principle of Marketing",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Business Environment",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Principles of Management",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMS": [
+            {
+                "Subject": "Strategic Financial Management (Fin)",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Media Planning & Management (Mkt)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Rupesh Dhruvanshi": {
+        "FY BAF": [
+            {
+                "Subject": "Business Law I",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Business Mathematics",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BAF": [
+            {
+                "Subject": "Auditing - III",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BAF": [
+            {
+                "Subject": "Financial Management -III",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Security Analysis & Portfolio Management",
+                "Type": "Theory"
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Subject": "Auditing",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Subject": "Financial Accounting",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Financial Accounting",
+                "Type": "Theory"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Subject": "Introdustion To cost Accounting",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ]
+    },
+    "Sarika Gupta": {
+        "FY BAF": [
+            {
+                "Subject": "Auditing",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Foundation Course II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BAF": [
+            {
+                "Subject": "Taxation- III",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Business Law - III",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BAF": [
+            {
+                "Subject": "Cost Accounting Paper IV",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Taxation- IV",
+                "Type": "Theory"
+            }
+        ],
+        "FY BCOM": [
+            {
+                "Subject": "Foundation Course",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Accounting & Finance",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Subject": "Foundation Course - IV",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Financial Accounting and Auditing",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Subject": "Direct Taxes and Indirect Taxes Paper II",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Direct Taxes and Indirect Taxes Paper II",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Amol Matore": {
+        "FY BCOM": [
+            {
+                "Subject": "Commerce II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Business Communication",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Subject": "Business Law - II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Subject": "Commerce VI",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Business Economics VI",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Geeta Deevani": {
+        "FY BCOM": [
+            {
+                "Subject": "Business Economics",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Subject": "Business Economics - IV",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Subject": "Business Economics VI",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Principal Sir": {
+        "FY BCOM": [
+            {
+                "Subject": "Environmental Management",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ]
+    },
+    "Swapnil Chaudhari": {
+        "FY BCOM": [
+            {
+                "Subject": "Maths",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BMS": [
+            {
+                "Subject": "Equity and debt management (fin)",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMS": [
+            {
+                "Subject": "operational Research",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Organisational Development (HR)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Deepali Tone": {
+        "SY BCOM": [
+            {
+                "Subject": "Commerce Paper - IV",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMS": [
+            {
+                "Subject": "International Finance (Fin)",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Project management (Fin)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Pradnya Ketkar": {
+        "SY BCOM": [
+            {
+                "Subject": "Advertising - II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "FY BMS": [
+            {
+                "Subject": "Business Communication - II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ]
+    },
+    "Anil Wagh": {
+        "TY BCOM": [
+            {
+                "Subject": "Commerce VI",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Pinky Garela": {
+        "TY BCOM": [
+            {
+                "Subject": "IT/ Export",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "IT/ Export",
+                "Type": "Theory"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Subject": "IT- in Business Management- II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "FY BScIT": [
+            {
+                "Subject": "Object Oriented Programming",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BScIT": [
+            {
+                "Subject": "CJ",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BScIT": [
+            {
+                "Subject": "Data Warehousing",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Meera Panda": {
+        "FY BMM": [
+            {
+                "Subject": "Foundation Course - II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMM": [
+            {
+                "Subject": "PPDM",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Rashmi Mishra": {
+        "FY BMM": [
+            {
+                "Subject": "Introduction to Journalism",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Introduction to Advertising",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BMM": [
+            {
+                "Subject": "Radio Programme Production- II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Film Communication- II",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMM": [
+            {
+                "Subject": "LAW",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "CI",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "AM",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Suraj Pawar": {
+        "FY BMM": [
+            {
+                "Subject": "Effective Communication - II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Content Writing",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Media, Gender & Culture",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BMM": [
+            {
+                "Subject": "Computer and Multimedia- II",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Writing and Editing for Media",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMM": [
+            {
+                "Subject": "CI",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "AMR",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Jameer Ali Khan": {
+        "FY BMS": [
+            {
+                "Subject": "Business Mathematics",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Industrial Law",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMS": [
+            {
+                "Subject": "International Marketing (mkt)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Suhas Joshi": {
+        "SY BMS": [
+            {
+                "Subject": "Training and development (HR)",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Business Planning and Entrepreneurs Management",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BMS": [
+            {
+                "Subject": "Brand Manegement (Mkt)",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Indian Ethos in Management (HR)",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "H R M in Service Sector Management (HR)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Veena Ahuja": {
+        "SY BMS": [
+            {
+                "Subject": "Environmental Management- (FC-III)",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ]
+    },
+    "Bharti": {
+        "TY BMS": [
+            {
+                "Subject": "Innovative Financial Services (Fin)",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Retail Management (Mkt)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Preeti Choubey": {
+        "TY BMS": [
+            {
+                "Subject": "HRM in Global Perspective (HR)",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Pinky Mota": {
+        "FY BScIT": [
+            {
+                "Subject": "Web Programming",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Practical Green Computing",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BScIT": [
+            {
+                "Subject": "SE",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "ES",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BScIT": [
+            {
+                "Subject": "Internet Technology Theory",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Practical Internet Technology Theory",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Swapnil Pawar": {
+        "FY BScIT": [
+            {
+                "Subject": "Numerical and Statistical Method",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BScIT": [
+            {
+                "Subject": "COST",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BScIT": [
+            {
+                "Subject": "GIS",
+                "Type": "Theory"
+            }
+        ]
+    },
+    "Taranum Shaikh": {
+        "FY BScIT": [
+            {
+                "Subject": "Green Computing",
+                "Type": "Theory",
+                "Workload": 6
+            },
+            {
+                "Subject": "Micro Processor Architecture",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "SY BScIT": [
+            {
+                "Subject": "CG",
+                "Type": "Theory",
+                "Workload": 6
+            }
+        ],
+        "TY BScIT": [
+            {
+                "Subject": "Project Report",
+                "Type": "Theory"
+            },
+            {
+                "Subject": "Digital Signals and System",
+                "Type": "Theory"
+            }
+        ]
+    }
+}

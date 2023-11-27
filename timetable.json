@@ -1,184 +1,2012 @@
 {
-    "FY IT": {
+    "FY BAF": {
         "Mon": [
-            "C Prog\nPractical\n(Ballal)",
-            "CLDS\nTheory\n(Smita)",
-            "DLA\nTheory\n(Rajnish)",
-            "TCS\nTheory\n(Panda)",
-            "DLA\nTheory\n(Rajnish)"
+            {
+                "subject": "Financial Accounting -II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
         ],
         "Tue": [
-            "DLA\nPractical\n(Rajnish)",
-            "TCS\nTheory\n(Panda)",
-            "FDBMS\nTheory\n(Smita)",
-            "C Prog\nTheory\n(Ballal)",
-            "CLDS\nTheory\n(Smita)"
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Foundation Course II",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Financial Accounting -II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            }
         ],
         "Wed": [
-            "FDBMS\nPractical\n(Smita)",
-            "C Prog\nTheory\n(Ballal)",
-            "TCS\nTheory\n(Panda)",
-            "DLA\nTheory\n(Rajnish)",
-            "TCS\nTheory\n(Panda)"
+            {
+                "subject": "Business Law I",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Financial Accounting -II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Foundation Course II",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
         ],
         "Thurs": [
-            "TCS\nPractical\n(Panda)",
-            "DLA\nTheory\n(Rajnish)",
-            "C Prog\nTheory\n(Ballal)",
-            "CLDS\nTheory\n(Smita)",
-            "C Prog\nTheory\n(Ballal)"
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Innovative Financial Service",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            }
         ],
         "Fri": [
-            "C Prog\nPractical\n(Ballal)",
-            "CLDS\nTheory\n(Smita)",
-            "DLA\nTheory\n(Rajnish)",
-            "TCS\nTheory\n(Panda)",
-            "DLA\nTheory\n(Rajnish)"
+            {
+                "subject": "Innovative Financial Service",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Business Law I",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Foundation Course II",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
         ],
         "Sat": [
-            "DLA\nPractical\n(Rajnish)",
-            "TCS\nTheory\n(Panda)",
-            "FDBMS\nTheory\n(Smita)",
-            "C Prog\nTheory\n(Ballal)",
-            "FDBMS\nTheory\n(Smita)"
+            {
+                "subject": "Business Communication II",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Law I",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Innovative Financial Service",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            }
         ]
     },
-    "SY IT": {
+    "FY BCOM": {
         "Mon": [
-            "OS\nPractical\n(Rajnish)",
-            "AM\nTheory\n(Panda)",
-            "DSA\nTheory\n(Smita)",
-            "Python\nTheory\n(Ballal)",
-            "DSA\nTheory\n(Smita)"
+            {
+                "subject": "Foundation Course",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Communication",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Environmental Management",
+                "subtype": "Theory",
+                "professor": "Principal Sir"
+            }
         ],
         "Tue": [
-            "DSA\nPractical\n(Smita)",
-            "Python\nTheory\n(Ballal)",
-            "AM\nTheory\n(Panda)",
-            "CN\nTheory\n(Rajnish)",
-            "AM\nTheory\n(Panda)"
+            {
+                "subject": "Commerce II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Environmental Management",
+                "subtype": "Theory",
+                "professor": "Principal Sir"
+            },
+            {
+                "subject": "Maths",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            }
         ],
         "Wed": [
-            "Python\nPractical\n(Ballal)",
-            "OS\nTheory\n(Rajnish)",
-            "OS\nTheory\n(Rajnish)",
-            "DSA\nTheory\n(Smita)",
-            "Python\nTheory\n(Ballal)"
+            {
+                "subject": "Business Economics",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Environmental Management",
+                "subtype": "Theory",
+                "professor": "Principal Sir"
+            },
+            {
+                "subject": "Maths",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Foundation Course",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
         ],
         "Thurs": [
-            "CN\nPractical\n(Rajnish)",
-            "DSA\nTheory\n(Smita)",
-            "DSA\nTheory\n(Smita)",
-            "AM\nTheory\n(Panda)",
-            "OS\nTheory\n(Rajnish)"
+            {
+                "subject": "Environmental Management",
+                "subtype": "Theory",
+                "professor": "Principal Sir"
+            },
+            {
+                "subject": "Maths",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Accounting & Finance",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Commerce II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            }
         ],
         "Fri": [
-            "DSA\nPractical\n(Smita)",
-            "AM\nTheory\n(Panda)",
-            "AM\nTheory\n(Panda)",
-            "Python\nTheory\n(Ballal)",
-            "DSA\nTheory\n(Smita)"
+            {
+                "subject": "Maths",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Foundation Course",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Communication",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            }
         ],
         "Sat": [
-            "Python\nPractical\n(Ballal)",
-            "Python\nTheory\n(Ballal)",
-            "Python\nTheory\n(Ballal)",
-            "CN\nTheory\n(Rajnish)",
-            "AM\nTheory\n(Panda)"
+            {
+                "subject": "Accounting & Finance",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Commerce II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Environmental Management",
+                "subtype": "Theory",
+                "professor": "Principal Sir"
+            }
+        ]
+    },
+    "FY BMM": {
+        "Mon": [
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Introduction to Journalism",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Content Writing",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Effective Communication - II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Introduction to Journalism",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Media, Gender & Culture",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Introduction to Journalism",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Effective Communication - II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Introduction to Journalism",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Content Writing",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Introduction to Advertising",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Media, Gender & Culture",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Introduction to Advertising",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Introduction to Advertising",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Effective Communication - II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Media, Gender & Culture",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Content Writing",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Foundation Course - II",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "Introduction to Advertising",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Introduction to Journalism",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
+        ]
+    },
+    "FY BMS": {
+        "Mon": [
+            {
+                "subject": "Principle of Marketing",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Principles of Management",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Business Environment",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Industrial Law",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Principles of Management",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Business Environment",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Industrial Law",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Principle of Marketing",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Industrial Law",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Business Communication - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Industrial Law",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Industrial Law",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Principle of Marketing",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Mathematics",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Business Environment",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
+        ]
+    },
+    "FY BScIT": {
+        "Mon": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Web Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Green Computing",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Green Computing",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Web Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Green Computing",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Web Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Practical Green Computing",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Micro Processor Architecture",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Micro Processor Architecture",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Practical Green Computing",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Object Oriented Programming",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Micro Processor Architecture",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Practical Green Computing",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Numerical and Statistical Method",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            }
+        ]
+    },
+    "SY BAF": {
+        "Mon": [
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Research Methodoloy in Accounting and Finance",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Law - III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Information Technology in Accountancy - II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Taxation- III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Financial Accounting IV",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Research Methodoloy in Accounting and Finance",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Financial Accounting IV",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Taxation- III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Research Methodoloy in Accounting and Finance",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Foundation Course IV",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Research Methodoloy in Accounting and Finance",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Business Law - III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Business Law - III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Research Methodoloy in Accounting and Finance",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Foundation Course IV",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Information Technology in Accountancy - II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Auditing - III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Taxation- III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Taxation- III",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
+        ]
+    },
+    "SY BCOM": {
+        "Mon": [
+            {
+                "subject": "Business Law - II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics - IV",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce Paper - IV",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Advertising - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Business Economics - IV",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce Paper - IV",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Advertising - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Commerce Paper - IV",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Advertising - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Business Law - II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Advertising - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            },
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Business Law - II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics - IV",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Auditing",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Business Law - II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics - IV",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce Paper - IV",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Business Law - II",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics - IV",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce Paper - IV",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Advertising - II",
+                "subtype": "Theory",
+                "professor": "Pradnya Ketkar"
+            }
+        ]
+    },
+    "SY BMM": {
+        "Mon": [
+            {
+                "subject": "Radio Programme Production- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Film Communication- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Film Communication- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Media Marketing Research",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Writing and Editing for Media",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Media, Law and Ethics",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Film Communication- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Radio Programme Production- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Film Communication- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Writing and Editing for Media",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Radio Programme Production- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Writing and Editing for Media",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Writing and Editing for Media",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Radio Programme Production- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Writing and Editing for Media",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Media Marketing Research",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Radio Programme Production- II",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "Media, Law and Ethics",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "Computer and Multimedia- II",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            }
+        ]
+    },
+    "SY BMS": {
+        "Mon": [
+            {
+                "subject": "Equity and debt management (fin)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Accounting for Managerial Desicions",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Introdustion To cost Accounting",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "IT- in Business Management- II",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Training and development (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Equity and debt management (fin)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "IT- in Business Management- II",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Environmental Management- (FC-III)",
+                "subtype": "Theory",
+                "professor": "Veena Ahuja"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Environmental Management- (FC-III)",
+                "subtype": "Theory",
+                "professor": "Veena Ahuja"
+            },
+            {
+                "subject": "IT- in Business Management- II",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Business Planning and Entrepreneurs Management",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Accounting for Managerial Desicions",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Accounting for Managerial Desicions",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Training and development (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Environmental Management- (FC-III)",
+                "subtype": "Theory",
+                "professor": "Veena Ahuja"
+            },
+            {
+                "subject": "Equity and debt management (fin)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Business Planning and Entrepreneurs Management",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Environmental Management- (FC-III)",
+                "subtype": "Theory",
+                "professor": "Veena Ahuja"
+            },
+            {
+                "subject": "Accounting for Managerial Desicions",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "IT- in Business Management- II",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Environmental Management- (FC-III)",
+                "subtype": "Theory",
+                "professor": "Veena Ahuja"
+            },
+            {
+                "subject": "Accounting for Managerial Desicions",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Equity and debt management (fin)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Training and development (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            }
+        ]
+    },
+    "SY BScIT": {
+        "Mon": [
+            {
+                "subject": "SE",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "SE",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "ES",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "SE",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "ES",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "CJ",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "CJ",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "SE",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "CJ",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "ES",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "ES",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "SE",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "COST",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "CG",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ]
+    },
+    "TY BAF": {
+        "Mon": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Cost Accounting Paper IV",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Financial Accounting VI",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Financial Management -III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Financial Accounting VI",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Cost Accounting Paper IV",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Cost Accounting Paper IV",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Financial Management -III",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Project Work II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Taxation- IV",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Security Analysis & Portfolio Management",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Project Work II",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Taxation- IV",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Financial Accounting VI",
+                "subtype": "Theory",
+                "professor": "Bipin Jha"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            }
         ]
     },
     "TY BCOM": {
         "Mon": [
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)",
-            "IT\nPractical\n(Smita)"
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "IT/ Export",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            }
         ],
         "Tue": [
-            "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)",
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Direct Tax\nTheory\n(Swapnil)"
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "IT/ Export",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
         ],
         "Wed": [
-            "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)",
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)",
-            "IT\nPractical\n(Smita)"
+            {
+                "subject": "Direct Taxes and Indirect Taxes Paper II",
+                "subtype": "Theory",
+                "professor": "Sarika Gupta"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            }
         ],
         "Thurs": [
-            "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)",
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)",
-            "Direct Tax\nTheory\n(Swapnil)"
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            }
         ],
         "Fri": [
-            "Export\nTheory\n(Pranali)",
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)",
-            "Direct Tax\nTheory\n(Swapnil)"
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Geeta Deevani"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "Financial Accounting",
+                "subtype": "Theory",
+                "professor": "Rupesh Dhruvanshi"
+            }
         ],
         "Sat": [
-            "Direct Tax\nTheory\n(Swapnil)",
-            "Cost Accounting\nTheory\n(Sarika)",
-            "FA\nTheory\n(Manisha)",
-            "ECO\nTheory\n(Geeta)",
-            "Export\nTheory\n(Pranali)",
-            "Direct Tax\nTheory\n(Swapnil)"
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "Commerce VI",
+                "subtype": "Theory",
+                "professor": "Anil Wagh"
+            },
+            {
+                "subject": "IT/ Export",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Business Economics VI",
+                "subtype": "Theory",
+                "professor": "Amol Matore"
+            }
         ]
     },
-    "TY IT": {
+    "TY BMM": {
         "Mon": [
-            "SPM\nPractical\n(Smita)",
-            "AI\nTheory\n(Ballal)",
-            "AI\nTheory\n(Ballal)",
-            "NGT\nTheory\n(Rajnish)",
-            "AI\nTheory\n(Ballal)"
+            {
+                "subject": "CI",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            }
         ],
         "Tue": [
-            "AI\nPractical\n(Ballal)",
-            "NGT\nTheory\n(Rajnish)",
-            "NGT\nTheory\n(Rajnish)",
-            "SPM\nTheory\n(Smita)",
-            "NGT\nTheory\n(Rajnish)"
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "CI",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "LAW",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            }
         ],
         "Wed": [
-            "NGT\nPractical\n(Rajnish)",
-            "SPM\nTheory\n(Smita)",
-            "SPM\nTheory\n(Smita)",
-            "AI\nTheory\n(Ballal)",
-            "SPM\nTheory\n(Smita)"
+            {
+                "subject": "LAW",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "CI",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            }
         ],
         "Thurs": [
-            "SPM\nPractical\n(Smita)",
-            "AI\nTheory\n(Ballal)",
-            "NGT\nTheory\n(Rajnish)",
-            "NGT\nTheory\n(Rajnish)",
-            "SPM\nTheory\n(Smita)"
+            {
+                "subject": "AMR",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            }
         ],
         "Fri": [
-            "NGT\nPractical\n(Rajnish)",
-            "NGT\nTheory\n(Rajnish)",
-            "SPM\nTheory\n(Smita)",
-            "SPM\nTheory\n(Smita)",
-            "AI\nTheory\n(Ballal)"
+            {
+                "subject": "FM",
+                "subtype": "Theory",
+                "professor": "Rajkumar Pillai"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "CI",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "AM",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            }
         ],
         "Sat": [
-            "SPM\nPractical\n(Smita)",
-            "SPM\nTheory\n(Smita)",
-            "NGT\nTheory\n(Rajnish)",
-            "SPM\nTheory\n(Smita)",
-            "NGT\nTheory\n(Rajnish)"
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            },
+            {
+                "subject": "AM",
+                "subtype": "Theory",
+                "professor": "Rashmi Mishra"
+            },
+            {
+                "subject": "AMR",
+                "subtype": "Theory",
+                "professor": "Suraj Pawar"
+            },
+            {
+                "subject": "PPDM",
+                "subtype": "Theory",
+                "professor": "Meera Panda"
+            }
+        ]
+    },
+    "TY BMS": {
+        "Mon": [
+            {
+                "subject": "International Finance (Fin)",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "International Marketing (mkt)",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "H R M in Service Sector Management (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Retail Management (Mkt)",
+                "subtype": "Theory",
+                "professor": "Bharti"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "International Marketing (mkt)",
+                "subtype": "Theory",
+                "professor": "Jameer Ali Khan"
+            },
+            {
+                "subject": "Indian Ethos in Management (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Innovative Financial Services (Fin)",
+                "subtype": "Theory",
+                "professor": "Bharti"
+            },
+            {
+                "subject": "HRM in Global Perspective (HR)",
+                "subtype": "Theory",
+                "professor": "Preeti Choubey"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Brand Manegement (Mkt)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Retail Management (Mkt)",
+                "subtype": "Theory",
+                "professor": "Bharti"
+            },
+            {
+                "subject": "HRM in Global Perspective (HR)",
+                "subtype": "Theory",
+                "professor": "Preeti Choubey"
+            },
+            {
+                "subject": "Organisational Development (HR)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Innovative Financial Services (Fin)",
+                "subtype": "Theory",
+                "professor": "Bharti"
+            },
+            {
+                "subject": "HRM in Global Perspective (HR)",
+                "subtype": "Theory",
+                "professor": "Preeti Choubey"
+            },
+            {
+                "subject": "operational Research",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Project management (Fin)",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "HRM in Global Perspective (HR)",
+                "subtype": "Theory",
+                "professor": "Preeti Choubey"
+            },
+            {
+                "subject": "Organisational Development (HR)",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "International Finance (Fin)",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Indian Ethos in Management (HR)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "operational Research",
+                "subtype": "Theory",
+                "professor": "Swapnil Chaudhari"
+            },
+            {
+                "subject": "Project management (Fin)",
+                "subtype": "Theory",
+                "professor": "Deepali Tone"
+            },
+            {
+                "subject": "Brand Manegement (Mkt)",
+                "subtype": "Theory",
+                "professor": "Suhas Joshi"
+            },
+            {
+                "subject": "Innovative Financial Services (Fin)",
+                "subtype": "Theory",
+                "professor": "Bharti"
+            }
+        ]
+    },
+    "TY BScIT": {
+        "Mon": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Project Report",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Internet Technology Theory",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Project Report",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Internet Technology Theory",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            },
+            {
+                "subject": "Practical Internet Technology Theory",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "Internet Technology Theory",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Practical Internet Technology Theory",
+                "subtype": "Theory",
+                "professor": "Pinky Mota"
+            },
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Digital Signals and System",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "GIS",
+                "subtype": "Theory",
+                "professor": "Swapnil Pawar"
+            },
+            {
+                "subject": "Digital Signals and System",
+                "subtype": "Theory",
+                "professor": "Taranum Shaikh"
+            },
+            {
+                "subject": "Data Warehousing",
+                "subtype": "Theory",
+                "professor": "Pinky Garela"
+            }
         ]
     }
 }
