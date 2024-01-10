@@ -1,10 +1,11 @@
 {
     "BScIT": {
         "start_time": "07:20",
-        "end_time": "10:00",
+        "end_time": "10:40",
         "minutes_lecture": 40,
         "practical_slots": [
-            0
+            0,
+            1
         ]
     },
     "BCOM": {
@@ -26,6 +27,12 @@
         "practical_slots": []
     },
     "BMS": {
+        "start_time": "07:20",
+        "end_time": "10:00",
+        "minutes_lecture": 40,
+        "practical_slots": []
+    },
+    "BAMMC": {
         "start_time": "07:20",
         "end_time": "10:00",
         "minutes_lecture": 40,

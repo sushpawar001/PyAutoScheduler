@@ -1,681 +1,716 @@
 {
-    "Bipin Jha": {
+    "Ellen Ripley": {
         "FY BAF": [
             {
-                "Subject": "Financial Accounting -II",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Innovative Financial Service",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Business Communication \u2013I (BC-I)"
             }
         ],
-        "SY BAF": [
+        "TY BAMMC": [
             {
-                "Subject": "Financial Accounting IV",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Information Technology in Accountancy - II",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Foundation Course IV",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BAF": [
-            {
-                "Subject": "Financial Accounting VI",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Project Work II",
-                "Type": "Theory"
-            }
-        ],
-        "TY BCOM": [
-            {
-                "Subject": "Costing and Accountaning",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Costing and Accountaning",
-                "Type": "Theory"
-            }
-        ],
-        "SY BMS": [
-            {
-                "Subject": "Accounting for Managerial Desicions",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ]
-    },
-    "Rajkumar Pillai": {
-        "FY BAF": [
-            {
-                "Subject": "Business Communication II",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BAF": [
-            {
-                "Subject": "Research Methodoloy in Accounting and Finance",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BMM": [
-            {
-                "Subject": "Media, Law and Ethics",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Media Marketing Research",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMM": [
-            {
-                "Subject": "FM",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "DRM",
-                "Type": "Theory"
+                "Workload": 4,
+                "Subject": "Advertising Media Research (AMR)"
             }
         ],
         "FY BMS": [
             {
-                "Subject": "Principle of Marketing",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Business Environment",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Principles of Management",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Business Law (B. Law)"
             }
         ],
         "TY BMS": [
             {
-                "Subject": "Strategic Financial Management (Fin)",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "SM",
+                "Options": {
+                    "Forrest Gump": "Wealth Mgt",
+                    "Sarah Connor": "PMCP"
+                }
             },
             {
-                "Subject": "Media Planning & Management (Mkt)",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "CRM",
+                "Options": {
+                    "Indiana Jones": "IAPM",
+                    "Captain Jack Sparrow": "SHRM & HRP"
+                }
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "HRP&CM",
+                "Options": {
+                    "Tony Stark": "CDM",
+                    "John McClane": "SDM"
+                }
             }
         ]
     },
-    "Rupesh Dhruvanshi": {
+    "Hermione Granger": {
         "FY BAF": [
             {
-                "Subject": "Business Law I",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Business Mathematics",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Business Envt.-I (Commerce-I)"
             }
         ],
-        "SY BAF": [
+        "FY BCOM": [
             {
-                "Subject": "Auditing - III",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Environmental Studies-I (EVS-I)"
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Foundation Course-III (FC-III)"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "BPEM"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "CB",
+                "Options": {
+                    "Indiana Jones": "ICA",
+                    "Captain Jack Sparrow": "R&S"
+                }
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "IM",
+                "Options": {
+                    "Clarice Starling": "Risk Mgt",
+                    "Rocky Balboa": "IR"
+                }
+            }
+        ]
+    },
+    "Indiana Jones": {
+        "FY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Introduction & Element of Cost (Cost A/C)"
             }
         ],
         "TY BAF": [
             {
-                "Subject": "Financial Management -III",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Security Analysis & Portfolio Management",
-                "Type": "Theory"
-            }
-        ],
-        "SY BCOM": [
-            {
-                "Subject": "Auditing",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Financial Accounting -V"
             }
         ],
-        "TY BCOM": [
+        "FY BMS": [
             {
-                "Subject": "Financial Accounting",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Financial Accounting",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Foundation Course-I (FC-I)"
             }
         ],
         "SY BMS": [
             {
-                "Subject": "Introdustion To cost Accounting",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "ICA",
+                "Options": {
+                    "Hermione Granger": "CB",
+                    "Captain Jack Sparrow": "R&S"
+                }
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "IAPM",
+                "Options": {
+                    "Ellen Ripley": "CRM",
+                    "Captain Jack Sparrow": "SHRM & HRP"
+                }
             }
         ]
     },
-    "Sarika Gupta": {
+    "James Bond": {
         "FY BAF": [
             {
-                "Subject": "Auditing",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Foundation Course II",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Elements of Fianancial Accounting-I (FA-I)"
             }
         ],
         "SY BAF": [
             {
-                "Subject": "Taxation- III",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Business Law - III",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Financial accounting-III"
             }
         ],
         "TY BAF": [
             {
-                "Subject": "Cost Accounting Paper IV",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Taxation- IV",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Financial Mgt."
             }
         ],
         "FY BCOM": [
             {
-                "Subject": "Foundation Course",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Accountancy & Financial Management-I(AFM-I)"
             },
             {
-                "Subject": "Accounting & Finance",
                 "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BCOM": [
-            {
-                "Subject": "Foundation Course - IV",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Financial Accounting and Auditing",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BCOM": [
-            {
-                "Subject": "Direct Taxes and Indirect Taxes Paper II",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Direct Taxes and Indirect Taxes Paper II",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Amol Matore": {
-        "FY BCOM": [
-            {
-                "Subject": "Commerce II",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Business Communication",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BCOM": [
-            {
-                "Subject": "Business Law - II",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BCOM": [
-            {
-                "Subject": "Commerce VI",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Business Economics VI",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Geeta Deevani": {
-        "FY BCOM": [
-            {
-                "Subject": "Business Economics",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BCOM": [
-            {
-                "Subject": "Business Economics - IV",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BCOM": [
-            {
-                "Subject": "Business Economics VI",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Principal Sir": {
-        "FY BCOM": [
-            {
-                "Subject": "Environmental Management",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ]
-    },
-    "Swapnil Chaudhari": {
-        "FY BCOM": [
-            {
-                "Subject": "Maths",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BMS": [
-            {
-                "Subject": "Equity and debt management (fin)",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMS": [
-            {
-                "Subject": "operational Research",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Organisational Development (HR)",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Deepali Tone": {
-        "SY BCOM": [
-            {
-                "Subject": "Commerce Paper - IV",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMS": [
-            {
-                "Subject": "International Finance (Fin)",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Project management (Fin)",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Pradnya Ketkar": {
-        "SY BCOM": [
-            {
-                "Subject": "Advertising - II",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Mathematics & Statistical Techniques-I (M&S-I)"
             }
         ],
         "FY BMS": [
             {
-                "Subject": "Business Communication - II",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Business Statistics (B. Statistics)"
             }
         ]
     },
-    "Anil Wagh": {
+    "Katniss Everdeen": {
+        "FY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Introduction to Financial Management (IFM-I)"
+            }
+        ],
+        "TY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Cost Acounting"
+            }
+        ],
         "TY BCOM": [
             {
-                "Subject": "Commerce VI",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Pinky Garela": {
-        "TY BCOM": [
-            {
-                "Subject": "IT/ Export",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "IT/ Export",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Cost Accounting"
             }
         ],
-        "SY BMS": [
-            {
-                "Subject": "IT- in Business Management- II",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "FY BScIT": [
-            {
-                "Subject": "Object Oriented Programming",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BScIT": [
-            {
-                "Subject": "CJ",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BScIT": [
-            {
-                "Subject": "Data Warehousing",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Meera Panda": {
-        "FY BMM": [
-            {
-                "Subject": "Foundation Course - II",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMM": [
-            {
-                "Subject": "PPDM",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Rashmi Mishra": {
-        "FY BMM": [
-            {
-                "Subject": "Introduction to Journalism",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Introduction to Advertising",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BMM": [
-            {
-                "Subject": "Radio Programme Production- II",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Film Communication- II",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMM": [
-            {
-                "Subject": "LAW",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "CI",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "AM",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Suraj Pawar": {
-        "FY BMM": [
-            {
-                "Subject": "Effective Communication - II",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Content Writing",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Media, Gender & Culture",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "SY BMM": [
-            {
-                "Subject": "Computer and Multimedia- II",
-                "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Writing and Editing for Media",
-                "Type": "Theory",
-                "Workload": 6
-            }
-        ],
-        "TY BMM": [
-            {
-                "Subject": "CI",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "AMR",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Jameer Ali Khan": {
         "FY BMS": [
             {
-                "Subject": "Business Mathematics",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Industrial Law",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Introduction to Financial Accounting (IFA)"
             }
         ],
-        "TY BMS": [
-            {
-                "Subject": "International Marketing (mkt)",
-                "Type": "Theory"
-            }
-        ]
-    },
-    "Suhas Joshi": {
         "SY BMS": [
             {
-                "Subject": "Training and development (HR)",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "AMD"
+            }
+        ]
+    },
+    "Marty McFly": {
+        "FY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-I (B.Eco-I)"
             },
             {
-                "Subject": "Business Planning and Entrepreneurs Management",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Foundation Course-I (FC-I)"
+            }
+        ],
+        "FY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Fundamental of Mass Communication (FMC)"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Foundation Course-I (FC)"
+            }
+        ],
+        "FY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Foundation Course-I (FC-I)"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-I (B.Eco-I)"
+            }
+        ]
+    },
+    "Clarice Starling": {
+        "SY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Taxation -II"
+            }
+        ],
+        "TY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Taxation"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Management Application -II"
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Direct & Indirect Taxation-I"
             }
         ],
         "TY BMS": [
             {
-                "Subject": "Brand Manegement (Mkt)",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Indian Ethos in Management (HR)",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "H R M in Service Sector Management (HR)",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Risk Mgt",
+                "Options": {
+                    "Hermione Granger": "IM",
+                    "Rocky Balboa": "IR"
+                }
             }
         ]
     },
-    "Veena Ahuja": {
+    "Forrest Gump": {
+        "SY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Auditing-II"
+            }
+        ],
+        "SY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Corporate Communication & Public Relation (CCPR)"
+            }
+        ],
+        "FY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Communication (BC)"
+            }
+        ],
         "SY BMS": [
             {
-                "Subject": "Environmental Management- (FC-III)",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "E&D",
+                "Options": {
+                    "Captain Jack Sparrow": "Advertising",
+                    "Sarah Connor": "M&L"
+                }
             }
-        ]
-    },
-    "Bharti": {
+        ],
         "TY BMS": [
             {
-                "Subject": "Innovative Financial Services (Fin)",
-                "Type": "Theory"
-            },
-            {
-                "Subject": "Retail Management (Mkt)",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Wealth Mgt",
+                "Options": {
+                    "Ellen Ripley": "SM",
+                    "Sarah Connor": "PMCP"
+                }
             }
         ]
     },
-    "Preeti Choubey": {
+    "Neo": {
+        "SY BAF": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-II"
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Law-I (B. Law-I)"
+            }
+        ],
+        "FY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-I (B.Eco-I)"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Envt. Mgt-III"
+            }
+        ],
         "TY BMS": [
             {
-                "Subject": "HRM in Global Perspective (HR)",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Corporate Communication & Public Relation (CCPR)"
             }
         ]
     },
-    "Pinky Mota": {
-        "FY BScIT": [
+    "Rocky Balboa": {
+        "SY BAF": [
             {
-                "Subject": "Web Programming",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Business Law-II"
             },
             {
-                "Subject": "Practical Green Computing",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Foundation Course-III"
             }
         ],
-        "SY BScIT": [
+        "FY BAMMC": [
             {
-                "Subject": "SE",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Effective Communication Skill-I (ECS)"
             },
             {
-                "Subject": "ES",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Current Affairs (CA)"
             }
         ],
-        "TY BScIT": [
+        "SY BCOM": [
             {
-                "Subject": "Internet Technology Theory",
-                "Type": "Theory"
-            },
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Commerce-III (Com-III)"
+            }
+        ],
+        "TY BMS": [
             {
-                "Subject": "Practical Internet Technology Theory",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "IR",
+                "Options": {
+                    "Clarice Starling": "Risk Mgt",
+                    "Hermione Granger": "IM"
+                }
             }
         ]
     },
-    "Swapnil Pawar": {
-        "FY BScIT": [
+    "Tony Stark": {
+        "SY BAF": [
             {
-                "Subject": "Numerical and Statistical Method",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Information Technology in Accountancy-I"
             }
         ],
-        "SY BScIT": [
+        "FY BCOM": [
             {
-                "Subject": "COST",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Commerce-I (Com-I)"
             }
         ],
-        "TY BScIT": [
+        "SY BCOM": [
             {
-                "Subject": "GIS",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Accountancy & Financial Management-III (AFM-III)"
+            }
+        ],
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Export Marketing-I"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Information Technology in Business management-I"
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "CDM",
+                "Options": {
+                    "John McClane": "SDM",
+                    "Ellen Ripley": "HRP&CM"
+                }
             }
         ]
     },
-    "Taranum Shaikh": {
-        "FY BScIT": [
+    "Sarah Connor": {
+        "TY BAF": [
             {
-                "Subject": "Green Computing",
                 "Type": "Theory",
-                "Workload": 6
-            },
-            {
-                "Subject": "Micro Processor Architecture",
-                "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Financial Accounting -VI"
             }
         ],
-        "SY BScIT": [
+        "TY BAMMC": [
             {
-                "Subject": "CG",
                 "Type": "Theory",
-                "Workload": 6
+                "Workload": 4,
+                "Subject": "Copy Writing"
             }
         ],
-        "TY BScIT": [
+        "SY BCOM": [
             {
-                "Subject": "Project Report",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Managerial Accounting (MA)"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "M&L",
+                "Options": {
+                    "Forrest Gump": "E&D",
+                    "Captain Jack Sparrow": "Advertising"
+                }
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "PMCP",
+                "Options": {
+                    "Forrest Gump": "Wealth Mgt",
+                    "Ellen Ripley": "SM"
+                }
+            }
+        ]
+    },
+    "Aragorn": {
+        "FY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "History of Media (HM)"
+            }
+        ],
+        "SY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Media Studies (MS)"
             },
             {
-                "Subject": "Digital Signals and System",
-                "Type": "Theory"
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Introduction to photography (ITP)"
+            }
+        ],
+        "TY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Agency Management (AM)"
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Advertising-I"
+            }
+        ]
+    },
+    "Ethan Hunt": {
+        "FY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Visual Communication (VC)"
+            }
+        ],
+        "SY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Film Communication-I (FLC)"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Computer Multi Media (C & M)"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Radio Program Production (RPP)"
+            }
+        ],
+        "TY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Social Media Marketing (SMM)"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Consumer Behaviour (CB)"
+            }
+        ]
+    },
+    "John McClane": {
+        "TY BAMMC": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Brand Building"
+            }
+        ],
+        "FY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Communication-I (BC-I)"
+            }
+        ],
+        "SY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-III (B.Eco-III)"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "SM"
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Logistics & Supply Chain Mgt.\n"
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "SDM",
+                "Options": {
+                    "Tony Stark": "CDM",
+                    "Ellen Ripley": "HRP&CM"
+                }
+            }
+        ]
+    },
+    "Captain Jack Sparrow": {
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Commerce-V"
+            }
+        ],
+        "FY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Foundation of Human Skills (FHS)"
+            }
+        ],
+        "SY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Advertising",
+                "Options": {
+                    "Forrest Gump": "E&D",
+                    "Sarah Connor": "M&L"
+                }
+            },
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "R&S",
+                "Options": {
+                    "Indiana Jones": "ICA",
+                    "Hermione Granger": "CB"
+                }
+            }
+        ],
+        "TY BMS": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "SHRM & HRP",
+                "Options": {
+                    "Indiana Jones": "IAPM",
+                    "Ellen Ripley": "CRM"
+                }
+            }
+        ]
+    },
+    "Lara Croft": {
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Business Economics-V"
+            }
+        ]
+    },
+    "Shrek": {
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Computer System & Applicaion-I"
+            }
+        ]
+    },
+    "Tyler Durden": {
+        "TY BCOM": [
+            {
+                "Type": "Theory",
+                "Workload": 4,
+                "Subject": "Financial Accounting-V"
             }
         ]
     }

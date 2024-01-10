@@ -1,12 +1,14 @@
 import csv
 import datetime as dt
+import time
 import json
+import traceback
 import tkinter as tk
 import tkinter.font as tkFont
 from tkinter import messagebox
 import ttkbootstrap as tkb
-from tkinter import ttk
 from tkinter.filedialog import askopenfilename
+from ttkbootstrap.tooltip import ToolTip
 
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4, landscape
@@ -64,7 +66,7 @@ def create_entry_frame() -> tkb.Frame:
             prof_entry.get().title() if prof_var.get() == "None" else prof_var.get()
         )
 
-        year: str = None
+        year: str = ""  # Changed None to ""
 
         if year_var.get() == "None":
             if dept_var.get() != "None":
@@ -84,7 +86,7 @@ def create_entry_frame() -> tkb.Frame:
                 aleart_pop_up("Workload should be greater than zero")
                 return
             else:
-                sub_dict["Workload"] = workload
+                sub_dict["Workload"] = workload  # type: ignore
 
         print(f"[create_entry_frame] Name = {name}")
         print(f"[create_entry_frame] Subject = {sub}")
@@ -116,7 +118,6 @@ def create_entry_frame() -> tkb.Frame:
             )
 
         all_subjects = get_subjects_by_year(year)
-        print(f"{all_subjects = }")
 
         # TODO: Workload will not be added if option is both
         # checking if subject already exists
@@ -405,10 +406,35 @@ def view_timetable_frame(year_key) -> tkb.Frame:
     """
     Creates a timetable frame to show given year's timetable
     """
+
+    def rewrap(event: tk.Event) -> None:
+        event.widget.config(wraplength=event.width - 15)
+
+    def add_tooltip(widget: tk.Label | tkb.Label, lec_num, day_num_of_week) -> None:
+        days = {
+            0: "Mon",
+            1: "Tue",
+            2: "Wed",
+            3: "Thurs",
+            4: "Fri",
+            5: "Sat",
+        }
+        available_profs = check_professor_available(lec_num, days[day_num_of_week])
+        dept_profs = get_professors_by_year(profs, year_key)
+
+        available_profs_lec_num = "\n".join(set(available_profs) & set(dept_profs))
+
+        ToolTip(
+            widget,
+            text=available_profs_lec_num
+            if available_profs_lec_num
+            else "No Professors Available!",
+        )
+
     temp_var: dict = ttlist
     table_frame = tkb.Frame(window)
     vertical_pad = 10
-    horizontal_pad = 10
+    horizontal_pad = 20
     borderwidth = 1
     RELIEF_TYPE = "ridge"
 
@@ -454,7 +480,6 @@ def view_timetable_frame(year_key) -> tkb.Frame:
     temp_time = start_time
     time_label.grid(row=1, column=0, sticky="NSEW")
     for row in range(1, int(no_of_lectures) + 1):
-        # print(f"{temp_time:%H:%M %p}")
         label = tk.Label(
             master=table_frame,
             text=f"{temp_time:%H:%M %p}",
@@ -479,19 +504,26 @@ def view_timetable_frame(year_key) -> tkb.Frame:
         label.grid(row=1, column=col + 1, sticky="NSEW")
 
         for row, value2 in enumerate(temp_var[year_key][value], start=2):
-            label_text = f"{value2['subject']}\n{value2['subtype']}\n{value2['professor']}"
+            label_text = (
+                f"{value2['subject']}\n{value2['subtype']}\n{value2['professor']}"
+            )
 
             label = tkb.Label(
                 master=table_frame,
-                text= label_text,
-                relief='sunken',
+                text=label_text,
+                relief="sunken",
                 borderwidth=1,
-                anchor='center',
+                anchor="center",
                 padding=10,
-                justify='center',
-                bootstyle="inverse-secondary" if 'Empty Slot' in label_text else "",
+                justify="center",
+                bootstyle="inverse-secondary" if "Empty Slot" in label_text else "",
+                wraplength=140,
             )
             label.grid(row=row, column=col + 1, sticky="NSEW")
+            label.bind("<Configure>", rewrap)
+
+            if "Empty Slot" in label_text:
+                add_tooltip(label, row - 2, col)
 
     frame_expansion(table_frame)
 
@@ -548,6 +580,7 @@ def view_prof_tt_frame() -> tkb.Frame:
 
     prof_OptionMenu = tkb.OptionMenu(prof_tt_frame, prof_var, None, *all_profs)
     prof_OptionMenu.configure(cursor="hand2")
+
     prof_OptionMenu.grid(row=0, column=3, columnspan=4, sticky="NSEW")
 
     def generate_tt(*args):
@@ -611,16 +644,16 @@ def view_prof_tt_frame() -> tkb.Frame:
                 slot_label = tkb.Label(
                     master=prof_tt_frame,
                     text=slot_text,
-                    # relief="raised",
                     padding=10,
                     anchor="center",
-                    # bootstyle="inverse-primary" if slot_text == "Free Slot" else "",
                     bootstyle="inverse-success" if slot_text == "Free Slot" else "",
                     borderwidth=borderwidth,
+                    justify="center",
                 )
+
                 slot_label.grid(row=lec_num + 3, column=col + 1, sticky="NSEW")
 
-    prof_var.trace("w", generate_tt)
+    prof_var.trace_add("write", generate_tt)
     generate_tt()
 
     frame_expansion(prof_tt_frame)
@@ -641,9 +674,22 @@ def create_professors_frame() -> tkb.Frame:
 
         for col, year in enumerate(years):
             header_label = tk.Label(
-                master=professors_frame, text=f"{year}", relief=RELIEF_TYPE
+                master=professors_frame,
+                text=f"{year}",
+                relief=RELIEF_TYPE,
+                font=SUBHEADING_FONT_BOLD,
             )
             header_label.grid(row=1, column=col + 1, sticky="NSEW")
+
+        professor_label = tk.Label(
+            master=professors_frame,
+            text="Professors",
+            relief=RELIEF_TYPE,
+            padx=5,
+            pady=5,
+            font=HEADING_FONT,
+        )
+        professor_label.grid(row=1, column=0, sticky="NSEW")
 
         for row, professor in enumerate(
             get_professors_by_department(dept_var.get()), start=2
@@ -698,7 +744,7 @@ def create_professors_frame() -> tkb.Frame:
     departments_OptionMenu.configure(cursor="hand2")
     departments_OptionMenu.grid(row=0, column=0, columnspan=2, sticky="NSEW")
 
-    dept_var.trace("w", show_options)
+    dept_var.trace_add("write", show_options)
     show_options()
     frame_expansion(professors_frame)
     return professors_frame
@@ -757,8 +803,8 @@ def create_options_frame() -> tkb.Frame:
 
         curr_time_label.config(
             text=f"""Current College time is {start_time:%H:%M %p} to {end_time:%H:%M %p}.
-        Lecture duration is {minutes_lecture} min
-        Total number of lectures are {int(nooflectures)}.""",
+            Lecture duration is {minutes_lecture} min
+            Total number of lectures are {int(nooflectures)}.""",
         )
 
         start_time_entry.delete(0, tk.END)
@@ -792,39 +838,41 @@ def create_options_frame() -> tkb.Frame:
         options_frame, dept_var, None, *all_departments, bootstyle="outline"
     )
     departments_OptionMenu.configure(cursor="hand2")
-    departments_OptionMenu.grid(row=6, column=0, columnspan=2, sticky="NSEW")
+    departments_OptionMenu.grid(
+        row=1, column=0, columnspan=2, pady=vertical_padding, sticky="NSEW"
+    )
 
     curr_time_label = tk.Label(
-        options_frame,
+        options_frame, anchor="center", justify="center", font=SUBHEADING_FONT
     )
-    curr_time_label.grid(row=0, column=0, columnspan=2)
+    curr_time_label.grid(row=0, column=0, columnspan=2, pady=vertical_padding)
 
     text1 = tk.Label(options_frame, text="Start Time: (24hr)")
-    text1.grid(row=1, column=0, pady=vertical_padding)
+    text1.grid(row=2, column=0, pady=vertical_padding)
     start_time_entry = tkb.Entry(options_frame)
-    start_time_entry.grid(row=1, column=1)
+    start_time_entry.grid(row=2, column=1)
 
     text2 = tk.Label(options_frame, text="End Time:")
-    text2.grid(row=2, column=0, pady=vertical_padding)
+    text2.grid(row=3, column=0, pady=vertical_padding)
     end_time_entry = tkb.Entry(options_frame)
-    end_time_entry.grid(row=2, column=1, pady=vertical_padding)
+    end_time_entry.grid(row=3, column=1, pady=vertical_padding)
 
     text3 = tk.Label(options_frame, text="Lecture Duration: (min)")
-    text3.grid(row=3, column=0, pady=vertical_padding)
+    text3.grid(row=4, column=0, pady=vertical_padding)
     lec_duration_entry = tkb.Entry(options_frame)
-    lec_duration_entry.grid(row=3, column=1, pady=vertical_padding)
+    lec_duration_entry.grid(row=4, column=1, pady=vertical_padding)
 
     text4 = tk.Label(options_frame, text="Practical Slots: (comma separated)")
-    text4.grid(row=4, column=0, pady=vertical_padding)
+    text4.grid(row=5, column=0, pady=vertical_padding)
     practical_slots_entry = tkb.Entry(options_frame)
-    practical_slots_entry.grid(row=4, column=1, pady=vertical_padding)
+    practical_slots_entry.grid(row=5, column=1, pady=vertical_padding)
 
-    dept_var.trace("w", show_options)
+    dept_var.trace_add("write", show_options)
     show_options()
 
     submit_button = tkb.Button(options_frame, text="Submit", command=take_info)
     submit_button.grid(
-        row=5, column=0, columnspan=2, pady=vertical_padding, sticky="NSEW"
+        row=6, column=0, columnspan=2, pady=vertical_padding, sticky="NSEW"
     )
 
     frame_expansion(options_frame)
@@ -911,16 +959,26 @@ def create_menu() -> None:
     settings_menu.add_command(
         label="Change Theme", command=lambda: create_page(change_theme_frame)
     )
+
+    settings_menu.add_command(
+        label="Statistics", command=lambda: create_page(create_stats_frame)
+    )
     menu.add_cascade(label="Settings", menu=settings_menu)
+
+
+def schedule_with_progress(progress_bar) -> None:
+    """Uses auto_schedule_helper with a progress bar for better UX"""
+    for i in range(101):
+        progress_bar["value"] = i
+        window.update_idletasks()  # Ensure smooth progress bar updates
+        time.sleep(0.02)
+    auto_schedule_helper()
 
 
 def create_timetable_page() -> tkb.Frame:
     """
     Create a 'Create a timetable page'
     """
-    padx: int = 20
-    pady: int = 10
-
     create_timetable_frame = tkb.Frame(window, padding=(20, 20))
 
     text1 = tk.Label(
@@ -932,13 +990,21 @@ def create_timetable_page() -> tkb.Frame:
     )
     text1.grid(row=0, column=0, sticky="we")
 
+    progress_bar = tkb.Progressbar(
+        create_timetable_frame,
+        orient="horizontal",
+        mode="determinate",
+        bootstyle="success-striped",
+    )
+    progress_bar.grid(row=1, column=0, sticky="we")
+
     schedule_btn = tkb.Button(
         master=create_timetable_frame,
         text="Click Here",
-        command=auto_schedule_helper,
+        command=lambda: schedule_with_progress(progress_bar),
     )
 
-    schedule_btn.grid(row=1, column=0, sticky="we")
+    schedule_btn.grid(row=2, column=0, sticky="we")
 
     frame_expansion(create_timetable_frame)
 
@@ -1242,6 +1308,7 @@ def create_all_pages():
     optional_subject_entry_page = optional_subject_entry_frame()
     change_theme_page = change_theme_frame()
     get_csv_page = get_csv_frame()
+    stats_page = create_stats_frame()
 
     frames[create_entry_frame] = entry_page
     frames[create_reschedule_page] = reschedule_page
@@ -1255,6 +1322,7 @@ def create_all_pages():
     frames[change_theme_frame] = change_theme_page
     frames[get_csv_frame] = get_csv_page
     frames[create_professors_frame] = prof_page
+    frames[create_stats_frame] = stats_page
 
 
 def get_subjects_by_year(year_to_find: str) -> list[tuple]:
@@ -1359,7 +1427,7 @@ def split_strip_strings(input_string_list: list[str]) -> list[str]:
     return words
 
 
-def auto_schedule7(professors: dict[str, dict[str, list]]) -> None:
+def auto_schedule(professors: dict[str, dict[str, list]]) -> None:
     """
     Generate a timetable schedule based on the availability of professors
     """
@@ -1437,7 +1505,7 @@ def generate_daily_schedule(
                         temp_sub = subject
                         temp_professor = professors_queue[0]
 
-                        print(optional_subjects)
+                        # print(optional_subjects)
 
                         for opt_professor, opt_subject in optional_subjects.items():
                             temp_sub += f" / {opt_subject}"
@@ -1557,6 +1625,7 @@ def get_department_by_year(year: str) -> str:
     for department in all_departments:
         if department in year:
             return department
+    return ""
 
 
 def get_all_years() -> list:
@@ -1985,9 +2054,12 @@ def auto_schedule_helper() -> None:
     function on the professors data to generate a schedule.
     """
 
-    global profs
+    global profs, settings, all_years, all_departments
     profs = read_json(PROFS_FILE)
-    auto_schedule7(profs)
+    settings = read_json(SETTINGS_FILE)
+    all_years = get_all_years()
+    all_departments = get_all_departments()
+    auto_schedule(profs)
 
 
 def change_theme_frame() -> tkb.Frame:
@@ -2007,7 +2079,88 @@ def change_theme_frame() -> tkb.Frame:
     return theme_frame
 
 
+def create_stats_frame() -> tkb.Frame:
+    stats_frame = tkb.Frame(window)
+
+    num_of_profs = 0
+    temp_var: dict = ttlist
+    vertical_pad = 10
+    horizontal_pad = 10
+    borderwidth = 1
+    RELIEF_TYPE = "ridge"
+
+    for text_idx, text in enumerate(["Departments", "No. of Professors"]):
+        header_label = tk.Label(
+            master=stats_frame,
+            text=text,
+            relief=RELIEF_TYPE,
+            pady=vertical_pad,
+            padx=horizontal_pad,
+            borderwidth=borderwidth,
+            font=SUBHEADING_FONT_BOLD,
+        )
+        header_label.grid(row=0, column=text_idx, sticky="NSEW")
+
+    # creating table headers
+    for dept_idx, dept in enumerate(all_departments):
+        dept_label = tk.Label(
+            master=stats_frame,
+            text=f"{dept}",
+            relief=RELIEF_TYPE,
+            pady=vertical_pad,
+            padx=horizontal_pad,
+            bg=LIGHT_GRAY_COLOR,
+            fg=DARK_GRAY_COLOR,
+            borderwidth=borderwidth,
+        )
+        dept_label.grid(row=dept_idx + 1, column=0, sticky="NSEW")
+
+        prof_count = len(get_professors_by_department(dept))
+        prof_count_label = tk.Label(
+            master=stats_frame,
+            text=f"{prof_count}",
+            relief=RELIEF_TYPE,
+            pady=vertical_pad,
+            padx=horizontal_pad,
+            bg=LIGHT_GRAY_COLOR,
+            fg=DARK_GRAY_COLOR,
+            borderwidth=borderwidth,
+        )
+        prof_count_label.grid(row=dept_idx + 1, column=1, sticky="NSEW")
+
+    empty_lecs, total_lecs, tt_score = tt_score_calc()
+    score_label = tk.Label(
+        master=stats_frame,
+        text=f"Total Lecture Slots: {total_lecs}\nEmpty Lecture Slots: {empty_lecs}\nTimetable Score {tt_score:.2f}%",
+        relief=RELIEF_TYPE,
+        pady=vertical_pad * 2,
+        padx=horizontal_pad,
+        bg=LIGHT_GRAY_COLOR,
+        fg=DARK_GRAY_COLOR,
+        borderwidth=borderwidth,
+    )
+    score_label.grid(row=dept_idx + 1, column=0, columnspan=2, sticky="NSEW")
+    frame_expansion(stats_frame)
+    return stats_frame
+
+
+def tt_score_calc():
+    """Calculates the timetable score (filled lectures/total lectures)"""
+    empty_lecs = 0
+    total_lecs = 0
+    for year in ttlist:
+        for day in ttlist[year]:
+            for lecture in ttlist[year][day]:
+                if "Empty Slot" in lecture["subject"]:
+                    empty_lecs += 1
+                total_lecs += 1
+    filled_slots = total_lecs - empty_lecs
+    tt_score = (filled_slots / total_lecs) * 100
+    return empty_lecs, total_lecs, tt_score
+
+
 def create_department_settings(department_name):
+    """Create a new department settings in settings file."""
     if department_name not in settings:
         temp = {
             "start_time": "00:00",
@@ -2018,69 +2171,117 @@ def create_department_settings(department_name):
         settings.update({department_name: temp})
 
 
-def get_csv_frame() -> tk.Frame:
-    def import_csv_data():
+def get_csv_frame() -> tk.Frame | tkb.Frame:
+    def add_prof_new_dict(prof, year_dept) -> None:
+        """
+        Adds professor to new dict.
+        If year-department not available then it will be added
+        """
+        if prof not in new_dict:
+            new_dict[prof] = {}
+
+        if year_dept not in new_dict[prof]:
+            new_dict[prof][year_dept] = []
+
+    def add_optional_prof_new_dict(
+        optional_profs: list, optional_subs: list, year_dept: str
+    ) -> None:
+        for prof_idx, optional_prof in enumerate(optional_profs):
+            subs_dicts: list = new_dict[optional_prof][year_dept]
+
+            for sub_dict in subs_dicts:
+                if sub_dict["Subject"] == optional_subs[prof_idx]:
+                    opt_dict = {
+                        other_prof: other_sub
+                        for (other_prof, other_sub) in zip(
+                            optional_profs, optional_subs
+                        )
+                        if other_prof != optional_prof
+                    }
+                    sub_dict["Options"] = opt_dict
+
+    def import_csv_data() -> None:
         """
         Imports CSV data from a file.
         """
+        try:
+            csv_file_path = askopenfilename(filetypes=[("CSV Files", "*.csv")])
 
-        csv_file_path = askopenfilename(filetypes=[("CSV Files", "*.csv")])
+            with open(csv_file_path, newline="") as csvfile:
+                reader = csv.DictReader(csvfile)
 
-        with open(csv_file_path, newline="") as csvfile:
-            reader = csv.DictReader(csvfile)
+                # filling the new dict with the data
+                for row in reader:
+                    prof: str = row["Professor"].strip()
+                    year_dept = f"{row['College Year']} {row['Department']}"
+                    workload: str = row["Workload"]
+                    subject_info = {"Type": row["Subject Type"]}
 
-            # filling the new dict with the data
-            for row in reader:
-                prof: str = row["Professor"].strip()
-                year_dept = f"{row['College Year']} {row['Department']}"
+                    if workload:
+                        workload = int(workload)
+                        subject_info["Workload"] = workload
 
-                if prof not in new_dict:
-                    new_dict[prof] = {}
+                    if "/" in prof:
+                        optional_profs = prof.split("/")
+                        optional_subs = row["Subject"].split("/")
 
-                if year_dept not in new_dict[prof]:
-                    new_dict[prof][year_dept] = []
+                        for prof_idx, optional_prof in enumerate(optional_profs):
+                            add_prof_new_dict(optional_prof, year_dept)
+                            subject_info_copy = (
+                                subject_info.copy()
+                            )  # copy to modify dict
+                            subject_info_copy["Subject"] = optional_subs[prof_idx]
 
-                workload: str = row["Workload"]
-                if workload:
-                    workload = int(workload)
-                    new_dict[prof][year_dept].append(
-                        {
-                            "Subject": row["Subject"],
-                            "Type": row["Subject Type"],
-                            "Workload": workload,
-                        }
-                    )
+                            new_dict[optional_prof][year_dept].append(subject_info_copy)
 
-                else:
-                    new_dict[prof][year_dept].append(
-                        {"Subject": row["Subject"], "Type": row["Subject Type"]}
-                    )
+                        add_optional_prof_new_dict(
+                            optional_profs, optional_subs, year_dept
+                        )
+                    else:
+                        add_prof_new_dict(prof, year_dept)
+                        subject_info["Subject"] = row["Subject"]
+                        new_dict[prof][year_dept].append(subject_info)
 
-                if row["Department"] not in departments:
-                    departments.append(row["Department"])
-                    create_department_settings(row["Department"])
+                    if row["Department"] not in departments:
+                        departments.append(row["Department"])
+                        create_department_settings(row["Department"])
 
-        global profs
-        profs = new_dict
-        store_json(PROFS_FILE, profs)
-        store_json(SETTINGS_FILE, settings)
+            global profs
+            profs = new_dict
+            store_json(PROFS_FILE, profs)
+            store_json(SETTINGS_FILE, settings)
+            schedule_with_progress(progress_bar)
+            update_all_years()
+            create_all_pages()
+            create_menu()
+            info_pop_up("CSV imported!")
 
-        print(new_dict)
-        print(departments)
-        print(settings)
+        except Exception as e:
+            traceback.print_exc()
+            info_pop_up("Error: Use a correct file format!")
 
     vertical_padding = 10
-    horizontal_padding = 15
-    new_dict = {}
+    new_dict = {}  # dictionary to store new data
     departments = get_all_departments()
 
-    csv_frame = tkb.Frame(window, padding=(20, 20))
+    main_frame = tkb.Frame(window, padding=(20, 20))  # main frame to center csv frame
+    csv_frame = tkb.Frame(main_frame)
 
     text = tkb.Label(
-        csv_frame, text="Please select a CSV file to import", anchor="center"
+        csv_frame,
+        text="Please select a CSV file to import\nNote: Existing data will be erased.",
+        anchor="center",
     )
 
     text.grid(row=0, column=0, pady=vertical_padding, sticky="EW")
+
+    progress_bar = tkb.Progressbar(
+        csv_frame,
+        orient="horizontal",
+        mode="determinate",
+        bootstyle="success-striped",
+    )
+    progress_bar.grid(row=1, column=0, pady=vertical_padding, sticky="EW")
 
     submit_button = tkb.Button(
         csv_frame,
@@ -2088,19 +2289,21 @@ def get_csv_frame() -> tk.Frame:
         command=import_csv_data,
     )
 
-    submit_button.grid(row=1, column=0, pady=vertical_padding, sticky="EW")
+    submit_button.grid(row=2, column=0, ipady=vertical_padding * 0.5, sticky="EW")
+    csv_frame.pack(anchor="center", expand=True)
+    frame_expansion(main_frame)
 
-    frame_expansion(csv_frame)
-
-    return csv_frame
+    return main_frame
 
 
 def get_years_by_department(department):
+    """Returns a list of years for a department"""
     departments_years = {year for year in all_years if department in year}
     return sorted(departments_years)
 
 
-def get_professors_by_department(department):
+def get_professors_by_department(department: str) -> list:
+    """Returns a list of professors that teaches to given department"""
     departments_years = get_years_by_department(department)
     department_profs = []
     for year in departments_years:
@@ -2132,22 +2335,22 @@ if __name__ == "__main__":
     # window.wm_attributes("-topmost", True)  # stays on top of other windows
     # window.resizable(False, False)  # Prevent resizing in both dimensions
 
-    window.minsize(350, 350)
+    window.minsize(450, 350)
     window.columnconfigure(0, weight=1)
     window.rowconfigure(0, weight=1)
 
-    HEADING_FONT = tkFont.Font(family="Segoe UI", size=12, weight="bold")
-    SUBHEADING_FONT = tkFont.Font(family="Segoe UI", size=10)
+    HEADING_FONT = tkFont.Font(family="Segoe UI", size=14, weight="bold")
+    SUBHEADING_FONT = tkFont.Font(family="Segoe UI", size=12)
+    SUBHEADING_FONT_BOLD = tkFont.Font(family="Segoe UI", size=12, weight="bold")
 
     set_window_options(window)
 
     if profs and settings:
-        auto_schedule7(profs)
-
-    store_json(TT_FILE, ttlist)
+        auto_schedule(profs)
+        store_json(TT_FILE, ttlist)
 
     create_menu()
     create_all_pages()
     create_all_tt_pages()
-    create_page(create_professors_frame)
+    create_page(get_csv_frame)
     window.mainloop()

@@ -2,1403 +2,1269 @@
     "FY BAF": {
         "Mon": [
             {
-                "subject": "Financial Accounting -II",
+                "subject": "Business Communication \u2013I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Envt.-I (Commerce-I)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Communication II",
+                "subject": "Introduction & Element of Cost (Cost A/C)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Auditing",
+                "subject": "Elements of Fianancial Accounting-I (FA-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "James Bond"
             }
         ],
         "Tue": [
             {
-                "subject": "Business Communication II",
+                "subject": "Business Envt.-I (Commerce-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Foundation Course II",
+                "subject": "Introduction & Element of Cost (Cost A/C)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Elements of Fianancial Accounting-I (FA-I)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "James Bond"
             },
             {
-                "subject": "Financial Accounting -II",
+                "subject": "Introduction to Financial Management (IFM-I)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Katniss Everdeen"
             }
         ],
         "Wed": [
             {
-                "subject": "Business Law I",
+                "subject": "Introduction & Element of Cost (Cost A/C)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Financial Accounting -II",
+                "subject": "Elements of Fianancial Accounting-I (FA-I)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "James Bond"
             },
             {
-                "subject": "Foundation Course II",
+                "subject": "Introduction to Financial Management (IFM-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Communication II",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Marty McFly"
             }
         ],
         "Thurs": [
             {
-                "subject": "Auditing",
+                "subject": "Elements of Fianancial Accounting-I (FA-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Communication II",
+                "subject": "Introduction to Financial Management (IFM-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Innovative Financial Service",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Communication \u2013I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Ellen Ripley"
             }
         ],
         "Fri": [
             {
-                "subject": "Innovative Financial Service",
+                "subject": "Introduction to Financial Management (IFM-I)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Law I",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Business Communication II",
+                "subject": "Business Communication \u2013I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Foundation Course II",
+                "subject": "Business Envt.-I (Commerce-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Hermione Granger"
             }
         ],
         "Sat": [
             {
-                "subject": "Business Communication II",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Auditing",
+                "subject": "Business Communication \u2013I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Business Law I",
+                "subject": "Business Envt.-I (Commerce-I)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Innovative Financial Service",
+                "subject": "Introduction & Element of Cost (Cost A/C)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Indiana Jones"
+            }
+        ]
+    },
+    "FY BAMMC": {
+        "Mon": [
+            {
+                "subject": "Fundamental of Mass Communication (FMC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            },
+            {
+                "subject": "History of Media (HM)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Current Affairs (CA)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Fundamental of Mass Communication (FMC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Effective Communication Skill-I (ECS)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Visual Communication (VC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "History of Media (HM)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Effective Communication Skill-I (ECS)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "History of Media (HM)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Fundamental of Mass Communication (FMC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            },
+            {
+                "subject": "Visual Communication (VC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Current Affairs (CA)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Visual Communication (VC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Effective Communication Skill-I (ECS)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Effective Communication Skill-I (ECS)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Foundation Course-I (FC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Foundation Course-I (FC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            },
+            {
+                "subject": "History of Media (HM)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Foundation Course-I (FC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            },
+            {
+                "subject": "Fundamental of Mass Communication (FMC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Current Affairs (CA)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Visual Communication (VC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Current Affairs (CA)",
+                "subtype": "Theory",
+                "professor": "Rocky Balboa"
+            },
+            {
+                "subject": "Foundation Course-I (FC)",
+                "subtype": "Theory",
+                "professor": "Marty McFly"
             }
         ]
     },
     "FY BCOM": {
         "Mon": [
             {
-                "subject": "Foundation Course",
+                "subject": "Environmental Studies-I (EVS-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Communication",
+                "subject": "Mathematics & Statistical Techniques-I (M&S-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Economics",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Environmental Management",
+                "subject": "Commerce-I (Com-I)",
                 "subtype": "Theory",
-                "professor": "Principal Sir"
+                "professor": "Tony Stark"
             }
         ],
         "Tue": [
             {
-                "subject": "Commerce II",
+                "subject": "Accountancy & Financial Management-I(AFM-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Economics",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Environmental Management",
+                "subject": "Commerce-I (Com-I)",
                 "subtype": "Theory",
-                "professor": "Principal Sir"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Maths",
+                "subject": "Business Communication-I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "John McClane"
             }
         ],
         "Wed": [
             {
-                "subject": "Business Economics",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Environmental Management",
+                "subject": "Commerce-I (Com-I)",
                 "subtype": "Theory",
-                "professor": "Principal Sir"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Maths",
+                "subject": "Business Communication-I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "John McClane"
             },
             {
-                "subject": "Foundation Course",
+                "subject": "Accountancy & Financial Management-I(AFM-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "James Bond"
             }
         ],
         "Thurs": [
             {
-                "subject": "Environmental Management",
+                "subject": "Commerce-I (Com-I)",
                 "subtype": "Theory",
-                "professor": "Principal Sir"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Maths",
+                "subject": "Business Communication-I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "John McClane"
             },
             {
-                "subject": "Accounting & Finance",
+                "subject": "Environmental Studies-I (EVS-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Commerce II",
+                "subject": "Mathematics & Statistical Techniques-I (M&S-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "James Bond"
             }
         ],
         "Fri": [
             {
-                "subject": "Maths",
+                "subject": "Business Communication-I (BC-I)",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "John McClane"
             },
             {
-                "subject": "Foundation Course",
+                "subject": "Environmental Studies-I (EVS-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Communication",
+                "subject": "Mathematics & Statistical Techniques-I (M&S-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Economics",
+                "subject": "Accountancy & Financial Management-I(AFM-I)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "James Bond"
             }
         ],
         "Sat": [
             {
-                "subject": "Accounting & Finance",
+                "subject": "Environmental Studies-I (EVS-I)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Commerce II",
+                "subject": "Accountancy & Financial Management-I(AFM-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Economics",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Marty McFly"
             },
             {
-                "subject": "Environmental Management",
+                "subject": "Mathematics & Statistical Techniques-I (M&S-I)",
                 "subtype": "Theory",
-                "professor": "Principal Sir"
-            }
-        ]
-    },
-    "FY BMM": {
-        "Mon": [
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Introduction to Journalism",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Content Writing",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Effective Communication - II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "Introduction to Journalism",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Media, Gender & Culture",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Introduction to Journalism",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "Effective Communication - II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Introduction to Journalism",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Content Writing",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Introduction to Advertising",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Media, Gender & Culture",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Introduction to Advertising",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "Introduction to Advertising",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Effective Communication - II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Media, Gender & Culture",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "Content Writing",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Foundation Course - II",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "Introduction to Advertising",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Introduction to Journalism",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
+                "professor": "James Bond"
             }
         ]
     },
     "FY BMS": {
         "Mon": [
             {
-                "subject": "Principle of Marketing",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Business Communication - II",
+                "subject": "Introduction to Financial Accounting (IFA)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Statistics (B. Statistics)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "James Bond"
             },
             {
-                "subject": "Principles of Management",
+                "subject": "Business Communication (BC)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Forrest Gump"
             }
         ],
         "Tue": [
             {
-                "subject": "Business Communication - II",
+                "subject": "Introduction to Financial Accounting (IFA)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Communication (BC)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Forrest Gump"
             },
             {
-                "subject": "Business Environment",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Neo"
             },
             {
-                "subject": "Industrial Law",
+                "subject": "Foundation of Human Skills (FHS)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Captain Jack Sparrow"
             }
         ],
         "Wed": [
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Communication (BC)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Forrest Gump"
             },
             {
-                "subject": "Principles of Management",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Communication - II",
+                "subject": "Foundation of Human Skills (FHS)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Captain Jack Sparrow"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Law (B. Law)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Ellen Ripley"
             }
         ],
         "Thurs": [
             {
-                "subject": "Business Environment",
+                "subject": "Business Economics-I (B.Eco-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Communication - II",
+                "subject": "Foundation of Human Skills (FHS)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Captain Jack Sparrow"
             },
             {
-                "subject": "Industrial Law",
+                "subject": "Business Law (B. Law)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Principle of Marketing",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Indiana Jones"
             }
         ],
         "Fri": [
             {
-                "subject": "Business Communication - II",
+                "subject": "Foundation of Human Skills (FHS)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Captain Jack Sparrow"
             },
             {
-                "subject": "Industrial Law",
+                "subject": "Business Law (B. Law)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Business Communication - II",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Industrial Law",
+                "subject": "Introduction to Financial Accounting (IFA)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Katniss Everdeen"
             }
         ],
         "Sat": [
             {
-                "subject": "Industrial Law",
+                "subject": "Business Law (B. Law)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Principle of Marketing",
+                "subject": "Foundation Course-I (FC-I)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Business Mathematics",
+                "subject": "Business Statistics (B. Statistics)",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Environment",
+                "subject": "Business Communication (BC)",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            }
-        ]
-    },
-    "FY BScIT": {
-        "Mon": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Web Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Green Computing",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Green Computing",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Web Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Green Computing",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Web Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Practical Green Computing",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Micro Processor Architecture",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Micro Processor Architecture",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Practical Green Computing",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "Object Oriented Programming",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Micro Processor Architecture",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Practical Green Computing",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Numerical and Statistical Method",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
+                "professor": "Forrest Gump"
             }
         ]
     },
     "SY BAF": {
         "Mon": [
             {
-                "subject": "Auditing - III",
+                "subject": "Financial accounting-III",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "James Bond"
             },
             {
-                "subject": "Research Methodoloy in Accounting and Finance",
+                "subject": "Taxation -II",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Business Law - III",
+                "subject": "Auditing-II",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Forrest Gump"
             },
             {
-                "subject": "Information Technology in Accountancy - II",
+                "subject": "Business Economics-II",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Neo"
             }
         ],
         "Tue": [
             {
-                "subject": "Taxation- III",
+                "subject": "Taxation -II",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Auditing - III",
+                "subject": "Business Economics-II",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Neo"
             },
             {
-                "subject": "Financial Accounting IV",
+                "subject": "Business Law-II",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Research Methodoloy in Accounting and Finance",
+                "subject": "Information Technology in Accountancy-I",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Tony Stark"
             }
         ],
         "Wed": [
             {
-                "subject": "Financial Accounting IV",
+                "subject": "Business Economics-II",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Neo"
             },
             {
-                "subject": "Taxation- III",
+                "subject": "Foundation Course-III",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Research Methodoloy in Accounting and Finance",
+                "subject": "Information Technology in Accountancy-I",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Auditing - III",
+                "subject": "Auditing-II",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Forrest Gump"
             }
         ],
         "Thurs": [
             {
-                "subject": "Auditing - III",
+                "subject": "Business Law-II",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Foundation Course IV",
+                "subject": "Information Technology in Accountancy-I",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Research Methodoloy in Accounting and Finance",
+                "subject": "Financial accounting-III",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "James Bond"
             },
             {
-                "subject": "Business Law - III",
+                "subject": "Business Economics-II",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Neo"
             }
         ],
         "Fri": [
             {
-                "subject": "Business Law - III",
+                "subject": "Information Technology in Accountancy-I",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Research Methodoloy in Accounting and Finance",
+                "subject": "Financial accounting-III",
                 "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
+                "professor": "James Bond"
             },
             {
-                "subject": "Auditing - III",
+                "subject": "Taxation -II",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Foundation Course IV",
+                "subject": "Foundation Course-III",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Rocky Balboa"
             }
         ],
         "Sat": [
             {
-                "subject": "Information Technology in Accountancy - II",
+                "subject": "Financial accounting-III",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "James Bond"
             },
             {
-                "subject": "Auditing - III",
+                "subject": "Taxation -II",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Taxation- III",
+                "subject": "Auditing-II",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Forrest Gump"
             },
             {
-                "subject": "Taxation- III",
+                "subject": "Business Law-II",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Rocky Balboa"
+            }
+        ]
+    },
+    "SY BAMMC": {
+        "Mon": [
+            {
+                "subject": "Corporate Communication & Public Relation (CCPR)",
+                "subtype": "Theory",
+                "professor": "Forrest Gump"
+            },
+            {
+                "subject": "Radio Program Production (RPP)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Introduction to photography (ITP)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Media Studies (MS)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Media Studies (MS)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Media Studies (MS)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Radio Program Production (RPP)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Radio Program Production (RPP)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Film Communication-I (FLC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Film Communication-I (FLC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Media Studies (MS)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Introduction to photography (ITP)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Corporate Communication & Public Relation (CCPR)",
+                "subtype": "Theory",
+                "professor": "Forrest Gump"
+            },
+            {
+                "subject": "Corporate Communication & Public Relation (CCPR)",
+                "subtype": "Theory",
+                "professor": "Forrest Gump"
+            },
+            {
+                "subject": "Film Communication-I (FLC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Film Communication-I (FLC)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Introduction to photography (ITP)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Computer Multi Media (C & M)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Introduction to photography (ITP)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Computer Multi Media (C & M)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Computer Multi Media (C & M)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Corporate Communication & Public Relation (CCPR)",
+                "subtype": "Theory",
+                "professor": "Forrest Gump"
+            },
+            {
+                "subject": "Computer Multi Media (C & M)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Radio Program Production (RPP)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
             }
         ]
     },
     "SY BCOM": {
         "Mon": [
             {
-                "subject": "Business Law - II",
+                "subject": "Business Law-I (B. Law-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Economics - IV",
+                "subject": "Commerce-III (Com-III)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Commerce Paper - IV",
+                "subject": "Accountancy & Financial Management-III (AFM-III)",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Advertising - II",
+                "subject": "Managerial Accounting (MA)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Sarah Connor"
             }
         ],
         "Tue": [
             {
-                "subject": "Business Economics - IV",
+                "subject": "Accountancy & Financial Management-III (AFM-III)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Commerce Paper - IV",
+                "subject": "Managerial Accounting (MA)",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Sarah Connor"
             },
             {
-                "subject": "Advertising - II",
+                "subject": "Business Economics-III (B.Eco-III)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "John McClane"
             },
             {
-                "subject": "Auditing",
+                "subject": "Advertising-I",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Aragorn"
             }
         ],
         "Wed": [
             {
-                "subject": "Commerce Paper - IV",
+                "subject": "Managerial Accounting (MA)",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Sarah Connor"
             },
             {
-                "subject": "Advertising - II",
+                "subject": "Advertising-I",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Aragorn"
             },
             {
-                "subject": "Auditing",
+                "subject": "Foundation Course-III (FC-III)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Law - II",
+                "subject": "Business Economics-III (B.Eco-III)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "John McClane"
             }
         ],
         "Thurs": [
             {
-                "subject": "Advertising - II",
+                "subject": "Advertising-I",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
+                "professor": "Aragorn"
             },
             {
-                "subject": "Auditing",
+                "subject": "Foundation Course-III (FC-III)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Law - II",
+                "subject": "Business Law-I (B. Law-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Economics - IV",
+                "subject": "Commerce-III (Com-III)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Rocky Balboa"
             }
         ],
         "Fri": [
             {
-                "subject": "Auditing",
+                "subject": "Foundation Course-III (FC-III)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Business Law - II",
+                "subject": "Business Law-I (B. Law-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Economics - IV",
+                "subject": "Commerce-III (Com-III)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Commerce Paper - IV",
+                "subject": "Accountancy & Financial Management-III (AFM-III)",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Tony Stark"
             }
         ],
         "Sat": [
             {
-                "subject": "Business Law - II",
+                "subject": "Business Law-I (B. Law-I)",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Neo"
             },
             {
-                "subject": "Business Economics - IV",
+                "subject": "Commerce-III (Com-III)",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Rocky Balboa"
             },
             {
-                "subject": "Commerce Paper - IV",
+                "subject": "Accountancy & Financial Management-III (AFM-III)",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "Advertising - II",
+                "subject": "Managerial Accounting (MA)",
                 "subtype": "Theory",
-                "professor": "Pradnya Ketkar"
-            }
-        ]
-    },
-    "SY BMM": {
-        "Mon": [
-            {
-                "subject": "Radio Programme Production- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Film Communication- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Film Communication- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Media Marketing Research",
-                "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            },
-            {
-                "subject": "Writing and Editing for Media",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "Media, Law and Ethics",
-                "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            },
-            {
-                "subject": "Film Communication- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Radio Programme Production- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "Film Communication- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Writing and Editing for Media",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Radio Programme Production- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Writing and Editing for Media",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "Writing and Editing for Media",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Radio Programme Production- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Writing and Editing for Media",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Media Marketing Research",
-                "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "Radio Programme Production- II",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "Media, Law and Ethics",
-                "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            },
-            {
-                "subject": "Computer and Multimedia- II",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
+                "professor": "Sarah Connor"
             }
         ]
     },
     "SY BMS": {
         "Mon": [
             {
-                "subject": "Equity and debt management (fin)",
+                "subject": "AMD",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Accounting for Managerial Desicions",
+                "subject": "E&D / Advertising / M&L",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Forrest Gump / Captain Jack Sparrow / Sarah Connor"
             },
             {
-                "subject": "Introdustion To cost Accounting",
+                "subject": "SM",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "John McClane"
             },
             {
-                "subject": "IT- in Business Management- II",
+                "subject": "CB / ICA / R&S",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Hermione Granger / Indiana Jones / Captain Jack Sparrow"
             }
         ],
         "Tue": [
             {
-                "subject": "Training and development (HR)",
+                "subject": "E&D / Advertising / M&L",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Forrest Gump / Captain Jack Sparrow / Sarah Connor"
             },
             {
-                "subject": "Equity and debt management (fin)",
+                "subject": "Information Technology in Business management-I",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "IT- in Business Management- II",
+                "subject": "BPEM",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Hermione Granger"
             },
             {
-                "subject": "Environmental Management- (FC-III)",
+                "subject": "Envt. Mgt-III",
                 "subtype": "Theory",
-                "professor": "Veena Ahuja"
+                "professor": "Neo"
             }
         ],
         "Wed": [
             {
-                "subject": "Environmental Management- (FC-III)",
+                "subject": "Information Technology in Business management-I",
                 "subtype": "Theory",
-                "professor": "Veena Ahuja"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "IT- in Business Management- II",
+                "subject": "M&L / E&D / Advertising",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Sarah Connor / Forrest Gump / Captain Jack Sparrow"
             },
             {
-                "subject": "Business Planning and Entrepreneurs Management",
+                "subject": "ICA / CB / R&S",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Indiana Jones / Hermione Granger / Captain Jack Sparrow"
             },
             {
-                "subject": "Accounting for Managerial Desicions",
+                "subject": "BPEM",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Hermione Granger"
             }
         ],
         "Thurs": [
             {
-                "subject": "Accounting for Managerial Desicions",
+                "subject": "M&L / E&D / Advertising",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Sarah Connor / Forrest Gump / Captain Jack Sparrow"
             },
             {
-                "subject": "Training and development (HR)",
+                "subject": "ICA / CB / R&S",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Indiana Jones / Hermione Granger / Captain Jack Sparrow"
             },
             {
-                "subject": "Environmental Management- (FC-III)",
+                "subject": "AMD",
                 "subtype": "Theory",
-                "professor": "Veena Ahuja"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Equity and debt management (fin)",
+                "subject": "Information Technology in Business management-I",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Tony Stark"
             }
         ],
         "Fri": [
             {
-                "subject": "Business Planning and Entrepreneurs Management",
+                "subject": "ICA / CB / R&S",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Indiana Jones / Hermione Granger / Captain Jack Sparrow"
             },
             {
-                "subject": "Environmental Management- (FC-III)",
+                "subject": "AMD",
                 "subtype": "Theory",
-                "professor": "Veena Ahuja"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Accounting for Managerial Desicions",
+                "subject": "Envt. Mgt-III",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Neo"
             },
             {
-                "subject": "IT- in Business Management- II",
+                "subject": "SM",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "John McClane"
             }
         ],
         "Sat": [
             {
-                "subject": "Environmental Management- (FC-III)",
+                "subject": "AMD",
                 "subtype": "Theory",
-                "professor": "Veena Ahuja"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Accounting for Managerial Desicions",
+                "subject": "Envt. Mgt-III",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Neo"
             },
             {
-                "subject": "Equity and debt management (fin)",
+                "subject": "SM",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "John McClane"
             },
             {
-                "subject": "Training and development (HR)",
+                "subject": "Envt. Mgt-III",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
-            }
-        ]
-    },
-    "SY BScIT": {
-        "Mon": [
-            {
-                "subject": "SE",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "SE",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "ES",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "SE",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "ES",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "CJ",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "CJ",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "SE",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "CJ",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "ES",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "ES",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "SE",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "COST",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "CG",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
+                "professor": "Neo"
             }
         ]
     },
     "TY BAF": {
         "Mon": [
             {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
+                "subject": "Taxation",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Cost Accounting Paper IV",
+                "subject": "Financial Accounting -V",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Financial Accounting VI",
+                "subject": "Financial Accounting -VI",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Sarah Connor"
             },
             {
-                "subject": "Financial Management -III",
+                "subject": "Taxation",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Clarice Starling"
             }
         ],
         "Tue": [
             {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
+                "subject": "Financial Accounting -V",
+                "subtype": "Theory",
+                "professor": "Indiana Jones"
             },
             {
-                "subject": "Financial Accounting VI",
+                "subject": "Financial Mgt.",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "James Bond"
             },
             {
-                "subject": "Cost Accounting Paper IV",
+                "subject": "Cost Acounting",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Cost Accounting Paper IV",
+                "subject": "Financial Accounting -V",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Indiana Jones"
             }
         ],
         "Wed": [
             {
+                "subject": "Financial Mgt.",
+                "subtype": "Theory",
+                "professor": "James Bond"
+            },
+            {
+                "subject": "Cost Acounting",
+                "subtype": "Theory",
+                "professor": "Katniss Everdeen"
+            },
+            {
+                "subject": "Management Application -II",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            },
+            {
+                "subject": "Management Application -II",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            }
+        ],
+        "Thurs": [
+            {
+                "subject": "Cost Acounting",
+                "subtype": "Theory",
+                "professor": "Katniss Everdeen"
+            },
+            {
+                "subject": "Taxation",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            },
+            {
+                "subject": "Financial Accounting -VI",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
+            },
+            {
+                "subject": "Taxation",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            }
+        ],
+        "Fri": [
+            {
+                "subject": "Management Application -II",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            },
+            {
+                "subject": "Financial Accounting -VI",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
+            },
+            {
                 "subject": "Empty Slot",
                 "subtype": "Empty Slot",
                 "professor": "Empty Slot"
             },
             {
-                "subject": "Financial Management -III",
+                "subject": "Financial Accounting -V",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Indiana Jones"
+            }
+        ],
+        "Sat": [
+            {
+                "subject": "Financial Accounting -VI",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
             },
             {
-                "subject": "Project Work II",
+                "subject": "Cost Acounting",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Katniss Everdeen"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            },
+            {
+                "subject": "Management Application -II",
+                "subtype": "Theory",
+                "professor": "Clarice Starling"
+            }
+        ]
+    },
+    "TY BAMMC": {
+        "Mon": [
+            {
+                "subject": "Copy Writing",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
+            },
+            {
+                "subject": "Brand Building",
+                "subtype": "Theory",
+                "professor": "John McClane"
+            },
+            {
+                "subject": "Consumer Behaviour (CB)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Consumer Behaviour (CB)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            }
+        ],
+        "Tue": [
+            {
+                "subject": "Social Media Marketing (SMM)",
+                "subtype": "Theory",
+                "professor": "Ethan Hunt"
+            },
+            {
+                "subject": "Advertising Media Research (AMR)",
+                "subtype": "Theory",
+                "professor": "Ellen Ripley"
+            },
+            {
+                "subject": "Copy Writing",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
+            },
+            {
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
+            }
+        ],
+        "Wed": [
+            {
+                "subject": "Brand Building",
+                "subtype": "Theory",
+                "professor": "John McClane"
+            },
+            {
+                "subject": "Brand Building",
+                "subtype": "Theory",
+                "professor": "John McClane"
+            },
+            {
+                "subject": "Advertising Media Research (AMR)",
+                "subtype": "Theory",
+                "professor": "Ellen Ripley"
             },
             {
                 "subject": "Empty Slot",
@@ -1408,19 +1274,19 @@
         ],
         "Thurs": [
             {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
+                "subject": "Advertising Media Research (AMR)",
+                "subtype": "Theory",
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Taxation- IV",
+                "subject": "Advertising Media Research (AMR)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Ellen Ripley"
             },
             {
-                "subject": "Security Analysis & Portfolio Management",
+                "subject": "Agency Management (AM)",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Aragorn"
             },
             {
                 "subject": "Empty Slot",
@@ -1430,19 +1296,19 @@
         ],
         "Fri": [
             {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
+                "subject": "Copy Writing",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
             },
             {
-                "subject": "Project Work II",
+                "subject": "Brand Building",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "John McClane"
             },
             {
-                "subject": "Taxation- IV",
+                "subject": "Social Media Marketing (SMM)",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Ethan Hunt"
             },
             {
                 "subject": "Empty Slot",
@@ -1452,19 +1318,19 @@
         ],
         "Sat": [
             {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
-            },
-            {
-                "subject": "Empty Slot",
-                "subtype": "Empty Slot",
-                "professor": "Empty Slot"
-            },
-            {
-                "subject": "Financial Accounting VI",
+                "subject": "Agency Management (AM)",
                 "subtype": "Theory",
-                "professor": "Bipin Jha"
+                "professor": "Aragorn"
+            },
+            {
+                "subject": "Copy Writing",
+                "subtype": "Theory",
+                "professor": "Sarah Connor"
+            },
+            {
+                "subject": "Agency Management (AM)",
+                "subtype": "Theory",
+                "professor": "Aragorn"
             },
             {
                 "subject": "Empty Slot",
@@ -1476,536 +1342,268 @@
     "TY BCOM": {
         "Mon": [
             {
-                "subject": "Business Economics VI",
+                "subject": "Export Marketing-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Tony Stark"
             },
             {
-                "subject": "IT/ Export",
+                "subject": "Financial Accounting-V",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Tyler Durden"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Cost Accounting",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Cost Accounting",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Katniss Everdeen"
             }
         ],
         "Tue": [
             {
-                "subject": "Commerce VI",
+                "subject": "Business Economics-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Lara Croft"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Cost Accounting",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Direct & Indirect Taxation-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "IT/ Export",
+                "subject": "Direct & Indirect Taxation-I",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Clarice Starling"
             }
         ],
         "Wed": [
             {
-                "subject": "Direct Taxes and Indirect Taxes Paper II",
+                "subject": "Computer System & Applicaion-I",
                 "subtype": "Theory",
-                "professor": "Sarika Gupta"
+                "professor": "Shrek"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Direct & Indirect Taxation-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Clarice Starling"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Business Economics-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Lara Croft"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Export Marketing-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Tony Stark"
             }
         ],
         "Thurs": [
             {
-                "subject": "Commerce VI",
+                "subject": "Financial Accounting-V",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
+                "professor": "Tyler Durden"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Business Economics-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Lara Croft"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Computer System & Applicaion-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Shrek"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Commerce-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Captain Jack Sparrow"
             }
         ],
         "Fri": [
             {
-                "subject": "Business Economics VI",
+                "subject": "Business Economics-V",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Lara Croft"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Computer System & Applicaion-I",
                 "subtype": "Theory",
-                "professor": "Geeta Deevani"
+                "professor": "Shrek"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Financial Accounting-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Tyler Durden"
             },
             {
-                "subject": "Financial Accounting",
+                "subject": "Direct & Indirect Taxation-I",
                 "subtype": "Theory",
-                "professor": "Rupesh Dhruvanshi"
+                "professor": "Clarice Starling"
             }
         ],
         "Sat": [
             {
-                "subject": "Commerce VI",
+                "subject": "Computer System & Applicaion-I",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Shrek"
             },
             {
-                "subject": "Commerce VI",
+                "subject": "Financial Accounting-V",
                 "subtype": "Theory",
-                "professor": "Anil Wagh"
+                "professor": "Tyler Durden"
             },
             {
-                "subject": "IT/ Export",
+                "subject": "Cost Accounting",
                 "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "professor": "Katniss Everdeen"
             },
             {
-                "subject": "Business Economics VI",
+                "subject": "Export Marketing-I",
                 "subtype": "Theory",
-                "professor": "Amol Matore"
-            }
-        ]
-    },
-    "TY BMM": {
-        "Mon": [
-            {
-                "subject": "CI",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "CI",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "LAW",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "LAW",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "CI",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "AMR",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "FM",
-                "subtype": "Theory",
-                "professor": "Rajkumar Pillai"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "CI",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "AM",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
-            },
-            {
-                "subject": "AM",
-                "subtype": "Theory",
-                "professor": "Rashmi Mishra"
-            },
-            {
-                "subject": "AMR",
-                "subtype": "Theory",
-                "professor": "Suraj Pawar"
-            },
-            {
-                "subject": "PPDM",
-                "subtype": "Theory",
-                "professor": "Meera Panda"
+                "professor": "Tony Stark"
             }
         ]
     },
     "TY BMS": {
         "Mon": [
             {
-                "subject": "International Finance (Fin)",
+                "subject": "IR / Risk Mgt / IM",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Rocky Balboa / Clarice Starling / Hermione Granger"
             },
             {
-                "subject": "International Marketing (mkt)",
+                "subject": "SM / Wealth Mgt / PMCP",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "Ellen Ripley / Forrest Gump / Sarah Connor"
             },
             {
-                "subject": "H R M in Service Sector Management (HR)",
+                "subject": "SHRM & HRP / IAPM / CRM",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Captain Jack Sparrow / Indiana Jones / Ellen Ripley"
             },
             {
-                "subject": "Retail Management (Mkt)",
+                "subject": "Logistics & Supply Chain Mgt.\n",
                 "subtype": "Theory",
-                "professor": "Bharti"
+                "professor": "John McClane"
             }
         ],
         "Tue": [
             {
-                "subject": "International Marketing (mkt)",
+                "subject": "Logistics & Supply Chain Mgt.\n",
                 "subtype": "Theory",
-                "professor": "Jameer Ali Khan"
+                "professor": "John McClane"
             },
             {
-                "subject": "Indian Ethos in Management (HR)",
+                "subject": "IM / Risk Mgt / IR",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Hermione Granger / Clarice Starling / Rocky Balboa"
             },
             {
-                "subject": "Innovative Financial Services (Fin)",
+                "subject": "HRP&CM / CDM / SDM",
                 "subtype": "Theory",
-                "professor": "Bharti"
+                "professor": "Ellen Ripley / Tony Stark / John McClane"
             },
             {
-                "subject": "HRM in Global Perspective (HR)",
-                "subtype": "Theory",
-                "professor": "Preeti Choubey"
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
             }
         ],
         "Wed": [
             {
-                "subject": "Brand Manegement (Mkt)",
+                "subject": "SHRM & HRP / IAPM / CRM",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Captain Jack Sparrow / Indiana Jones / Ellen Ripley"
             },
             {
-                "subject": "Retail Management (Mkt)",
+                "subject": "CRM / IAPM / SHRM & HRP",
                 "subtype": "Theory",
-                "professor": "Bharti"
+                "professor": "Ellen Ripley / Indiana Jones / Captain Jack Sparrow"
             },
             {
-                "subject": "HRM in Global Perspective (HR)",
+                "subject": "Wealth Mgt / SM / PMCP",
                 "subtype": "Theory",
-                "professor": "Preeti Choubey"
+                "professor": "Forrest Gump / Ellen Ripley / Sarah Connor"
             },
             {
-                "subject": "Organisational Development (HR)",
-                "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
             }
         ],
         "Thurs": [
             {
-                "subject": "Innovative Financial Services (Fin)",
+                "subject": "IM / Risk Mgt / IR",
                 "subtype": "Theory",
-                "professor": "Bharti"
+                "professor": "Hermione Granger / Clarice Starling / Rocky Balboa"
             },
             {
-                "subject": "HRM in Global Perspective (HR)",
+                "subject": "Corporate Communication & Public Relation (CCPR)",
                 "subtype": "Theory",
-                "professor": "Preeti Choubey"
+                "professor": "Neo"
             },
             {
-                "subject": "operational Research",
+                "subject": "CDM / SDM / HRP&CM",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Tony Stark / John McClane / Ellen Ripley"
             },
             {
-                "subject": "Project management (Fin)",
-                "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
             }
         ],
         "Fri": [
             {
-                "subject": "HRM in Global Perspective (HR)",
+                "subject": "Wealth Mgt / SM / PMCP",
                 "subtype": "Theory",
-                "professor": "Preeti Choubey"
+                "professor": "Forrest Gump / Ellen Ripley / Sarah Connor"
             },
             {
-                "subject": "Organisational Development (HR)",
+                "subject": "IR / Risk Mgt / IM",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Rocky Balboa / Clarice Starling / Hermione Granger"
             },
             {
-                "subject": "International Finance (Fin)",
+                "subject": "PMCP / Wealth Mgt / SM",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Sarah Connor / Forrest Gump / Ellen Ripley"
             },
             {
-                "subject": "Indian Ethos in Management (HR)",
-                "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
             }
         ],
         "Sat": [
             {
-                "subject": "operational Research",
+                "subject": "CDM / SDM / HRP&CM",
                 "subtype": "Theory",
-                "professor": "Swapnil Chaudhari"
+                "professor": "Tony Stark / John McClane / Ellen Ripley"
             },
             {
-                "subject": "Project management (Fin)",
+                "subject": "CDM / SDM / HRP&CM",
                 "subtype": "Theory",
-                "professor": "Deepali Tone"
+                "professor": "Tony Stark / John McClane / Ellen Ripley"
             },
             {
-                "subject": "Brand Manegement (Mkt)",
+                "subject": "SHRM & HRP / IAPM / CRM",
                 "subtype": "Theory",
-                "professor": "Suhas Joshi"
+                "professor": "Captain Jack Sparrow / Indiana Jones / Ellen Ripley"
             },
             {
-                "subject": "Innovative Financial Services (Fin)",
-                "subtype": "Theory",
-                "professor": "Bharti"
-            }
-        ]
-    },
-    "TY BScIT": {
-        "Mon": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Project Report",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            }
-        ],
-        "Tue": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Internet Technology Theory",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Project Report",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            }
-        ],
-        "Wed": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Internet Technology Theory",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            }
-        ],
-        "Thurs": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
-            },
-            {
-                "subject": "Practical Internet Technology Theory",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "Internet Technology Theory",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            }
-        ],
-        "Fri": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Practical Internet Technology Theory",
-                "subtype": "Theory",
-                "professor": "Pinky Mota"
-            },
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Digital Signals and System",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            }
-        ],
-        "Sat": [
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "GIS",
-                "subtype": "Theory",
-                "professor": "Swapnil Pawar"
-            },
-            {
-                "subject": "Digital Signals and System",
-                "subtype": "Theory",
-                "professor": "Taranum Shaikh"
-            },
-            {
-                "subject": "Data Warehousing",
-                "subtype": "Theory",
-                "professor": "Pinky Garela"
+                "subject": "Empty Slot",
+                "subtype": "Empty Slot",
+                "professor": "Empty Slot"
             }
         ]
     }
